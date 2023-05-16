@@ -1,17 +1,22 @@
 from demoparser import DemoParser
 import pandas as pd
+# import boto3
 import os
-
+import passwd
 
 class csgo_parser():
     LOCAL_CSV_PATH = "c:\csgo_app\csv"
 
     def __init__(self, demo_path):
         self.parser = DemoParser(demo_path)
+        self.demo_date = self.get_date_from_demofile(demo_path)
         self.parse_players = self.parser.parse_players()
         self.parse_header = self.parser.parse_header()
         self.match_id = self.calculate_file_hash(demo_path)
 
+    def get_date_from_demofile(self,file_path):
+        return file_path[-17:-7]        
+        
     def calculate_file_hash(self, file_path):
         import zlib
 
@@ -95,6 +100,6 @@ class csgo_parser():
     def main(self):
         self.load_all_events()
 
-
 a = csgo_parser("c:/csgo_app/data/003604372192294338675_1473557262.dem")
 a.main()
+
