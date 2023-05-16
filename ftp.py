@@ -1,7 +1,6 @@
 import ftplib
 import os
-import re
-from passwd import userftp,passwdftp
+from passwd import userftp, passwdftp
 
 # Conectando ao servidor FTP
 ftp = ftplib.FTP('ftp.maggie.hostzone.games')
@@ -14,7 +13,7 @@ ftp.cwd('/csgo/')
 arquivos = ftp.nlst()
 
 # Escolhendo a pasta onde os arquivos serão salvos
-pasta_destino = 'C:\projects\csgo_parser\demos'
+pasta_destino = "C:/projects/csgo_parser/demos"
 
 # Criando a pasta de destino, se ela não existir
 if not os.path.exists(pasta_destino):

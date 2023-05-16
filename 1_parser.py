@@ -1,11 +1,10 @@
 from demoparser import DemoParser
 import pandas as pd
 # import boto3
-import os
-import passwd
+
 
 class csgo_parser():
-    LOCAL_CSV_PATH = "c:\csgo_app\csv"
+    LOCAL_CSV_PATH = "c:/csgo_app/csv"
 
     def __init__(self, demo_path):
         self.parser = DemoParser(demo_path)
@@ -14,9 +13,9 @@ class csgo_parser():
         self.parse_header = self.parser.parse_header()
         self.match_id = self.calculate_file_hash(demo_path)
 
-    def get_date_from_demofile(self,file_path):
-        return file_path[-17:-7]        
-        
+    def get_date_from_demofile(self, file_path):
+        return file_path[-17:-7]
+
     def calculate_file_hash(self, file_path):
         import zlib
 
@@ -29,7 +28,9 @@ class csgo_parser():
                 # Atualizar o objeto de hash com cada bloco de dados
                 hash_object = zlib.crc32(block, hash_object)
 
-        # Obter o valor de hash como uma representação hexadecimal de até 8 caracteres
+        # Obter o valor de hash como uma representação
+        # hexadecimal de até 8 caracteres
+
         file_hash = format(hash_object & 0xFFFFFFFF, '08x')
 
         return file_hash
@@ -38,8 +39,8 @@ class csgo_parser():
 # !!!! remove the X variable after the retry notations
     def save_to_csv(self, df, file_name):
         """
-            Save the dataframe data into a csv on the path set in LOCAL_CSV_PATH variable
-            return: boolean
+            Save the dataframe data into a csv on the path set
+            in LOCAL_CSV_PATH variable return: boolean
         """
         absolute_path = self.LOCAL_CSV_PATH+"/"+file_name+".csv"
         df.to_csv(absolute_path, index=False)
@@ -100,6 +101,6 @@ class csgo_parser():
     def main(self):
         self.load_all_events()
 
+
 a = csgo_parser("c:/csgo_app/data/003604372192294338675_1473557262.dem")
 a.main()
-

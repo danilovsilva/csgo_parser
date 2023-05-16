@@ -1,10 +1,9 @@
-from demoparser import DemoParser
 import pandas as pd
 import os
 
 
 class csgo_analyzer():
-    LOCAL_CSV_PATH = "c:\csgo_app\csv"
+    LOCAL_CSV_PATH = "c:/csgo_app/csv"
 
     def __init__(self):
         print()
