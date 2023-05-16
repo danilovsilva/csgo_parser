@@ -1,2 +1,2 @@
-player_steamid,tick,player_name,z,entityid,y,x,event_name,match_id
-76561198340888446,61696,MonsTro,98.03125,101,-1948.7972412109375,-1676.8193359375,decoy_started,c3ddd683
+player_steamid,tick,player_name,z,entityid,y,x,event_name,round
+76561198340888446,61696,MonsTro,98.03125,101,-1948.7972412109375,-1676.8193359375,decoy_started,0

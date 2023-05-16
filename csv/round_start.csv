@@ -1,108 +1,108 @@
-objective,timelimit,fraglimit,event_name,tick,match_id
-BOMB TARGET,999.0,0.0,round_start,33,c3ddd683
-,,,cs_round_start_beep,33,c3ddd683
-,,,cs_round_start_beep,95,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,3979,c3ddd683
-,,,cs_round_start_beep,5069,c3ddd683
-,,,cs_round_start_beep,5133,c3ddd683
-,,,cs_round_start_beep,5197,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,12243,c3ddd683
-,,,cs_round_start_beep,15253,c3ddd683
-,,,cs_round_start_beep,15317,c3ddd683
-,,,cs_round_start_beep,15381,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,22789,c3ddd683
-,,,cs_round_start_beep,23878,c3ddd683
-,,,cs_round_start_beep,23942,c3ddd683
-,,,cs_round_start_beep,24006,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,28337,c3ddd683
-,,,cs_round_start_beep,29421,c3ddd683
-,,,cs_round_start_beep,29485,c3ddd683
-,,,cs_round_start_beep,29549,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,36194,c3ddd683
-,,,cs_round_start_beep,37278,c3ddd683
-,,,cs_round_start_beep,37342,c3ddd683
-,,,cs_round_start_beep,37406,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,45722,c3ddd683
-,,,cs_round_start_beep,46812,c3ddd683
-,,,cs_round_start_beep,46876,c3ddd683
-,,,cs_round_start_beep,46940,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,53976,c3ddd683
-,,,cs_round_start_beep,55065,c3ddd683
-,,,cs_round_start_beep,55129,c3ddd683
-,,,cs_round_start_beep,55193,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,59691,c3ddd683
-,,,cs_round_start_beep,60780,c3ddd683
-,,,cs_round_start_beep,60844,c3ddd683
-,,,cs_round_start_beep,60908,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,70081,c3ddd683
-,,,cs_round_start_beep,71165,c3ddd683
-,,,cs_round_start_beep,71229,c3ddd683
-,,,cs_round_start_beep,71293,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,75533,c3ddd683
-,,,cs_round_start_beep,76617,c3ddd683
-,,,cs_round_start_beep,76681,c3ddd683
-,,,cs_round_start_beep,76745,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,82510,c3ddd683
-,,,cs_round_start_beep,83594,c3ddd683
-,,,cs_round_start_beep,83658,c3ddd683
-,,,cs_round_start_beep,83722,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,91592,c3ddd683
-,,,cs_round_start_beep,92681,c3ddd683
-,,,cs_round_start_beep,92745,c3ddd683
-,,,cs_round_start_beep,92809,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,100686,c3ddd683
-,,,cs_round_start_beep,101770,c3ddd683
-,,,cs_round_start_beep,101834,c3ddd683
-,,,cs_round_start_beep,101898,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,107358,c3ddd683
-,,,cs_round_start_beep,108447,c3ddd683
-,,,cs_round_start_beep,108511,c3ddd683
-,,,cs_round_start_beep,108575,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,112129,c3ddd683
-,,,cs_round_start_beep,113213,c3ddd683
-,,,cs_round_start_beep,113277,c3ddd683
-,,,cs_round_start_beep,113341,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,119129,c3ddd683
-,,,cs_round_start_beep,120219,c3ddd683
-,,,cs_round_start_beep,120283,c3ddd683
-,,,cs_round_start_beep,120347,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,125013,c3ddd683
-,,,cs_round_start_beep,126097,c3ddd683
-,,,cs_round_start_beep,126161,c3ddd683
-,,,cs_round_start_beep,126225,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,130967,c3ddd683
-,,,cs_round_start_beep,132051,c3ddd683
-,,,cs_round_start_beep,132115,c3ddd683
-,,,cs_round_start_beep,132179,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,138355,c3ddd683
-,,,cs_round_start_beep,139439,c3ddd683
-,,,cs_round_start_beep,139503,c3ddd683
-,,,cs_round_start_beep,139567,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,142969,c3ddd683
-,,,cs_round_start_beep,144058,c3ddd683
-,,,cs_round_start_beep,144122,c3ddd683
-,,,cs_round_start_beep,144186,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,149592,c3ddd683
-,,,cs_round_start_beep,150681,c3ddd683
-,,,cs_round_start_beep,150745,c3ddd683
-,,,cs_round_start_beep,150809,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,158501,c3ddd683
-,,,cs_round_start_beep,159585,c3ddd683
-,,,cs_round_start_beep,159649,c3ddd683
-,,,cs_round_start_beep,159713,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,165373,c3ddd683
-,,,cs_round_start_beep,166457,c3ddd683
-,,,cs_round_start_beep,166521,c3ddd683
-,,,cs_round_start_beep,166585,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,171835,c3ddd683
-,,,cs_round_start_beep,172919,c3ddd683
-,,,cs_round_start_beep,172983,c3ddd683
-,,,cs_round_start_beep,173047,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,179211,c3ddd683
-,,,cs_round_start_beep,180300,c3ddd683
-,,,cs_round_start_beep,180364,c3ddd683
-,,,cs_round_start_beep,180428,c3ddd683
-BOMB TARGET,115.0,0.0,round_start,185218,c3ddd683
-,,,cs_round_start_beep,186307,c3ddd683
-,,,cs_round_start_beep,186371,c3ddd683
-,,,cs_round_start_beep,186435,c3ddd683
+objective,timelimit,fraglimit,event_name,tick,round
+BOMB TARGET,999.0,0.0,round_start,33,0
+,,,cs_round_start_beep,33,0
+,,,cs_round_start_beep,95,0
+BOMB TARGET,115.0,0.0,round_start,3979,0
+,,,cs_round_start_beep,5069,0
+,,,cs_round_start_beep,5133,0
+,,,cs_round_start_beep,5197,0
+BOMB TARGET,115.0,0.0,round_start,12243,0
+,,,cs_round_start_beep,15253,0
+,,,cs_round_start_beep,15317,0
+,,,cs_round_start_beep,15381,0
+BOMB TARGET,115.0,0.0,round_start,22789,0
+,,,cs_round_start_beep,23878,0
+,,,cs_round_start_beep,23942,0
+,,,cs_round_start_beep,24006,0
+BOMB TARGET,115.0,0.0,round_start,28337,0
+,,,cs_round_start_beep,29421,0
+,,,cs_round_start_beep,29485,0
+,,,cs_round_start_beep,29549,0
+BOMB TARGET,115.0,0.0,round_start,36194,0
+,,,cs_round_start_beep,37278,0
+,,,cs_round_start_beep,37342,0
+,,,cs_round_start_beep,37406,0
+BOMB TARGET,115.0,0.0,round_start,45722,0
+,,,cs_round_start_beep,46812,0
+,,,cs_round_start_beep,46876,0
+,,,cs_round_start_beep,46940,0
+BOMB TARGET,115.0,0.0,round_start,53976,0
+,,,cs_round_start_beep,55065,0
+,,,cs_round_start_beep,55129,0
+,,,cs_round_start_beep,55193,0
+BOMB TARGET,115.0,0.0,round_start,59691,0
+,,,cs_round_start_beep,60780,0
+,,,cs_round_start_beep,60844,0
+,,,cs_round_start_beep,60908,0
+BOMB TARGET,115.0,0.0,round_start,70081,0
+,,,cs_round_start_beep,71165,0
+,,,cs_round_start_beep,71229,0
+,,,cs_round_start_beep,71293,0
+BOMB TARGET,115.0,0.0,round_start,75533,0
+,,,cs_round_start_beep,76617,0
+,,,cs_round_start_beep,76681,0
+,,,cs_round_start_beep,76745,0
+BOMB TARGET,115.0,0.0,round_start,82510,0
+,,,cs_round_start_beep,83594,0
+,,,cs_round_start_beep,83658,0
+,,,cs_round_start_beep,83722,0
+BOMB TARGET,115.0,0.0,round_start,91592,0
+,,,cs_round_start_beep,92681,0
+,,,cs_round_start_beep,92745,0
+,,,cs_round_start_beep,92809,0
+BOMB TARGET,115.0,0.0,round_start,100686,0
+,,,cs_round_start_beep,101770,0
+,,,cs_round_start_beep,101834,0
+,,,cs_round_start_beep,101898,0
+BOMB TARGET,115.0,0.0,round_start,107358,0
+,,,cs_round_start_beep,108447,0
+,,,cs_round_start_beep,108511,0
+,,,cs_round_start_beep,108575,0
+BOMB TARGET,115.0,0.0,round_start,112129,0
+,,,cs_round_start_beep,113213,0
+,,,cs_round_start_beep,113277,0
+,,,cs_round_start_beep,113341,0
+BOMB TARGET,115.0,0.0,round_start,119129,0
+,,,cs_round_start_beep,120219,0
+,,,cs_round_start_beep,120283,0
+,,,cs_round_start_beep,120347,0
+BOMB TARGET,115.0,0.0,round_start,125013,0
+,,,cs_round_start_beep,126097,0
+,,,cs_round_start_beep,126161,0
+,,,cs_round_start_beep,126225,0
+BOMB TARGET,115.0,0.0,round_start,130967,0
+,,,cs_round_start_beep,132051,0
+,,,cs_round_start_beep,132115,0
+,,,cs_round_start_beep,132179,0
+BOMB TARGET,115.0,0.0,round_start,138355,0
+,,,cs_round_start_beep,139439,0
+,,,cs_round_start_beep,139503,0
+,,,cs_round_start_beep,139567,0
+BOMB TARGET,115.0,0.0,round_start,142969,0
+,,,cs_round_start_beep,144058,0
+,,,cs_round_start_beep,144122,0
+,,,cs_round_start_beep,144186,0
+BOMB TARGET,115.0,0.0,round_start,149592,0
+,,,cs_round_start_beep,150681,0
+,,,cs_round_start_beep,150745,0
+,,,cs_round_start_beep,150809,0
+BOMB TARGET,115.0,0.0,round_start,158501,0
+,,,cs_round_start_beep,159585,0
+,,,cs_round_start_beep,159649,0
+,,,cs_round_start_beep,159713,0
+BOMB TARGET,115.0,0.0,round_start,165373,0
+,,,cs_round_start_beep,166457,0
+,,,cs_round_start_beep,166521,0
+,,,cs_round_start_beep,166585,0
+BOMB TARGET,115.0,0.0,round_start,171835,0
+,,,cs_round_start_beep,172919,0
+,,,cs_round_start_beep,172983,0
+,,,cs_round_start_beep,173047,0
+BOMB TARGET,115.0,0.0,round_start,179211,0
+,,,cs_round_start_beep,180300,0
+,,,cs_round_start_beep,180364,0
+,,,cs_round_start_beep,180428,0
+BOMB TARGET,115.0,0.0,round_start,185218,0
+,,,cs_round_start_beep,186307,0
+,,,cs_round_start_beep,186371,0
+,,,cs_round_start_beep,186435,0
