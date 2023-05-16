@@ -1,8 +1,8 @@
 from demoparser import DemoParser
 import pandas as pd
-import boto3
+#import boto3
 import os
-
+import passwd
 
 class csgo_parser():
     # ACCESS_KEY_ID = ""
@@ -14,11 +14,15 @@ class csgo_parser():
 
     def __init__(self, demo_path):
         self.parser = DemoParser(demo_path)
+        self.demo_date = self.get_date_from_demofile(demo_path)
         self.parse_players = self.parser.parse_players()
         self.parse_header = self.parser.parse_header()
         self.match_id = self.calculate_file_hash(demo_path)
         print()
 
+    def get_date_from_demofile(self,file_path):
+        return file_path[-17:-7]        
+        
     def calculate_file_hash(self, file_path):
         import zlib
 
@@ -210,7 +214,7 @@ class csgo_parser():
     #  map_name [:find("\")]        "_" signon_length  protoplayback_tickscol  playback_frames
 # id de_overpass                     _  566301         189267                  94539           167841343781153874
 # id de_overpass_56630118926794539167841343781153874
-a = csgo_parser("c:/csgo_app/data/003604372192294338675_1473557262.dem")
+a = csgo_parser("C:\projects\csgo_parser\demos\pug_de_ancient_2023-05-09_23.dem")
 # a.list_all_events()
 a.load_all_events()
 # a.load_events()
