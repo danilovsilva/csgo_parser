@@ -1,3 +1,3 @@
-reason,tick,player_name,name,networkid,event_name,match_id
-Kicked by Console,493,Wesley,Wesley,BOT,player_disconnect,c3ddd683
-Kicked by Console,629,Wesley,Larry,BOT,player_disconnect,c3ddd683
+player_steamid,reason,tick,player_name,name,networkid,event_name,round
+0,Kicked by Console,493,Wesley,Wesley,BOT,player_disconnect,0
+0,Kicked by Console,629,Wesley,Larry,BOT,player_disconnect,0

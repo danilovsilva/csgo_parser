@@ -1,4 +1,4 @@
-player_name,player_steamid,event_name,site,tick,match_id
-Luiz,76561198100001022,bomb_defused,519,45274,c3ddd683
-AVARA KÉRABA,76561198397576589,bomb_defused,102,130515,c3ddd683
-AVARA KÉRABA,76561198397576589,bomb_defused,102,171383,c3ddd683
+player_name,round,player_steamid,event_name,site,tick
+Luiz,0,76561198100001022,bomb_defused,519,45274
+AVARA KÉRABA,0,76561198397576589,bomb_defused,102,130515
+AVARA KÉRABA,0,76561198397576589,bomb_defused,102,171383

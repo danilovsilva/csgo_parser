@@ -1,11 +1,11 @@
-user_id,entity_id,rank_name,rank_id,comp_wins,steamid,starting_side,name,crosshair_code,match_id
-5,4,Unranked,-1,-1,76561198051880621,CT,Cujura,CSGO-8j6ha-BJcYV-KixQi-bVkQK-PHPYE,c3ddd683
-3,2,Unranked,-1,-1,76561198124241179,T,Talevor,CSGO-S9FTf-TUEWJ-m3ByR-9SWUa-YcOUD,c3ddd683
-6,5,Unranked,-1,-1,76561198100001022,T,Luiz,CSGO-hjaYp-pUqRP-j5NY9-uEKp6-X9VeL,c3ddd683
-12,11,Unranked,-1,-1,76561198421514418,T,rodrigaoobrabo,CSGO-eFULe-6R3Eo-4wFpi-iXPNS-W4sKG,c3ddd683
-9,8,Unranked,-1,-1,76561197996437459,T,【﻿ＰＫ】,CSGO-RaZxB-3eenv-S7fMY-txc25-qhRqJ,c3ddd683
-14,13,Unranked,-1,-1,76561198397576589,CT,AVARA KÉRABA,CSGO-jBmCr-rwBrj-j8Ueh-TwcDp-cVGOP,c3ddd683
-13,12,Unranked,-1,-1,76561198340888446,CT,MonsTro,CSGO-aTbpw-qAFWh-iMw4Z-BdB5J-thiaB,c3ddd683
-10,9,Unranked,-1,-1,76561198000238678,T,Erick,CSGO-dhq38-rkhtA-mmMun-wwJLV-RYcNE,c3ddd683
-17,6,Unranked,-1,-1,76561198178993731,CT,Siraissi,CSGO-6QzF9-TMWTW-4fCzG-wRXGt-NZGiJ,c3ddd683
-4,3,Unranked,-1,-1,76561198026214582,CT,Connan,CSGO-8NYpr-onLiz-SDyGe-L8DzV-jA26A,c3ddd683
+crosshair_code,comp_wins,rank_name,name,starting_side,steamid,rank_id,entity_id,user_id
+CSGO-jBmCr-rwBrj-j8Ueh-TwcDp-cVGOP,-1,Unranked,AVARA KÉRABA,CT,76561198397576589,-1,13,14
+CSGO-S9FTf-TUEWJ-m3ByR-9SWUa-YcOUD,-1,Unranked,Talevor,T,76561198124241179,-1,2,3
+CSGO-eFULe-6R3Eo-4wFpi-iXPNS-W4sKG,-1,Unranked,rodrigaoobrabo,T,76561198421514418,-1,11,12
+CSGO-hjaYp-pUqRP-j5NY9-uEKp6-X9VeL,-1,Unranked,Luiz,T,76561198100001022,-1,5,6
+CSGO-RaZxB-3eenv-S7fMY-txc25-qhRqJ,-1,Unranked,【﻿ＰＫ】,T,76561197996437459,-1,8,9
+CSGO-6QzF9-TMWTW-4fCzG-wRXGt-NZGiJ,-1,Unranked,Siraissi,CT,76561198178993731,-1,6,17
+CSGO-8j6ha-BJcYV-KixQi-bVkQK-PHPYE,-1,Unranked,Cujura,CT,76561198051880621,-1,4,5
+CSGO-dhq38-rkhtA-mmMun-wwJLV-RYcNE,-1,Unranked,Erick,T,76561198000238678,-1,9,10
+CSGO-aTbpw-qAFWh-iMw4Z-BdB5J-thiaB,-1,Unranked,MonsTro,CT,76561198340888446,-1,12,13
+CSGO-8NYpr-onLiz-SDyGe-L8DzV-jA26A,-1,Unranked,Connan,CT,76561198026214582,-1,3,4
