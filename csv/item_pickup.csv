@@ -1,0 +1,1747 @@
+defindex,player_steamid,item,tick,silent,player_name,event_name,match_id
+7,0,ak47,4,True,Wesley,item_pickup,c3ddd683
+42,0,knife,4,True,Wesley,item_pickup,c3ddd683
+7,0,ak47,4,True,Wesley,item_pickup,c3ddd683
+42,0,knife,4,True,Wesley,item_pickup,c3ddd683
+59,0,knife,33,False,Wesley,item_pickup,c3ddd683
+4,0,glock,33,False,Wesley,item_pickup,c3ddd683
+42,0,knife,33,False,Wesley,item_pickup,c3ddd683
+32,0,hkp2000,33,False,Wesley,item_pickup,c3ddd683
+13,0,galilar,37,False,Wesley,item_pickup,c3ddd683
+42,0,knife,37,False,Wesley,item_pickup,c3ddd683
+13,0,galilar,37,False,Wesley,item_pickup,c3ddd683
+42,0,knife,37,False,Wesley,item_pickup,c3ddd683
+42,76561198421514418,knife,491,True,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,491,True,rodrigaoobrabo,item_pickup,c3ddd683
+59,76561198026214582,knife,627,True,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,627,True,Connan,item_pickup,c3ddd683
+60,76561198421514418,m4a1,631,True,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198421514418,knife,631,True,rodrigaoobrabo,item_pickup,c3ddd683
+60,76561198026214582,m4a1,631,True,Connan,item_pickup,c3ddd683
+42,76561198026214582,knife,631,True,Connan,item_pickup,c3ddd683
+42,76561197996437459,knife,631,True,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,631,True,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561198000238678,knife,655,True,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,655,True,Erick,item_pickup,c3ddd683
+59,76561198340888446,knife,767,True,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,767,True,MonsTro,item_pickup,c3ddd683
+1,76561197996437459,deagle,769,True,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561197996437459,knife,769,True,【﻿ＰＫ】,item_pickup,c3ddd683
+1,76561198340888446,deagle,769,True,MonsTro,item_pickup,c3ddd683
+42,76561198340888446,knife,769,True,MonsTro,item_pickup,c3ddd683
+42,76561198100001022,knife,893,True,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,893,True,Luiz,item_pickup,c3ddd683
+520,76561198051880621,knife,1003,True,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,1003,True,Cujura,item_pickup,c3ddd683
+13,76561198000238678,galilar,1009,True,Erick,item_pickup,c3ddd683
+42,76561198000238678,knife,1009,True,Erick,item_pickup,c3ddd683
+13,76561198051880621,galilar,1009,True,Cujura,item_pickup,c3ddd683
+520,76561198051880621,knife,1009,True,Cujura,item_pickup,c3ddd683
+59,76561198397576589,knife,1009,True,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,1009,True,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198100001022,glock,1015,True,Luiz,item_pickup,c3ddd683
+42,76561198100001022,knife,1015,True,Luiz,item_pickup,c3ddd683
+4,76561198397576589,glock,1015,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198397576589,knife,1015,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198124241179,knife,1049,True,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,1049,True,Talevor,item_pickup,c3ddd683
+42,76561198421514418,knife,1449,True,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,1449,True,rodrigaoobrabo,item_pickup,c3ddd683
+60,76561198421514418,m4a1,1453,True,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198421514418,knife,1453,True,rodrigaoobrabo,item_pickup,c3ddd683
+60,76561198026214582,m4a1,1453,True,Connan,item_pickup,c3ddd683
+42,76561198026214582,knife,1453,True,Connan,item_pickup,c3ddd683
+59,76561198397576589,knife,1493,True,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,1493,True,AVARA KÉRABA,item_pickup,c3ddd683
+10,76561198100001022,famas,1495,True,Luiz,item_pickup,c3ddd683
+42,76561198100001022,knife,1495,True,Luiz,item_pickup,c3ddd683
+10,76561198397576589,famas,1495,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198397576589,knife,1495,True,AVARA KÉRABA,item_pickup,c3ddd683
+520,76561198051880621,knife,1705,True,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,1705,True,Cujura,item_pickup,c3ddd683
+7,76561198000238678,ak47,1711,True,Erick,item_pickup,c3ddd683
+42,76561198000238678,knife,1711,True,Erick,item_pickup,c3ddd683
+7,76561198051880621,ak47,1711,True,Cujura,item_pickup,c3ddd683
+520,76561198051880621,knife,1711,True,Cujura,item_pickup,c3ddd683
+42,76561198100001022,knife,1823,True,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,1823,True,Luiz,item_pickup,c3ddd683
+13,76561198100001022,galilar,1825,True,Luiz,item_pickup,c3ddd683
+42,76561198100001022,knife,1825,True,Luiz,item_pickup,c3ddd683
+13,76561198397576589,galilar,1825,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198397576589,knife,1825,True,AVARA KÉRABA,item_pickup,c3ddd683
+520,76561198051880621,knife,2023,True,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,2023,True,Cujura,item_pickup,c3ddd683
+4,76561198000238678,glock,2029,True,Erick,item_pickup,c3ddd683
+42,76561198000238678,knife,2029,True,Erick,item_pickup,c3ddd683
+4,76561198051880621,glock,2029,True,Cujura,item_pickup,c3ddd683
+520,76561198051880621,knife,2029,True,Cujura,item_pickup,c3ddd683
+42,76561198421514418,knife,2063,True,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,2063,True,rodrigaoobrabo,item_pickup,c3ddd683
+60,76561198421514418,m4a1,2065,True,rodrigaoobrabo,item_pickup,c3ddd683
+1,76561198421514418,deagle,2065,True,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198421514418,knife,2065,True,rodrigaoobrabo,item_pickup,c3ddd683
+1,76561198026214582,deagle,2065,True,Connan,item_pickup,c3ddd683
+42,76561198026214582,knife,2065,True,Connan,item_pickup,c3ddd683
+42,76561198100001022,knife,2135,True,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,2135,True,Luiz,item_pickup,c3ddd683
+13,76561198100001022,galilar,2137,True,Luiz,item_pickup,c3ddd683
+42,76561198100001022,knife,2137,True,Luiz,item_pickup,c3ddd683
+13,76561198397576589,galilar,2137,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198397576589,knife,2137,True,AVARA KÉRABA,item_pickup,c3ddd683
+59,76561198178993731,knife,2443,True,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,2443,True,Siraissi,item_pickup,c3ddd683
+10,76561198000238678,famas,2449,True,Erick,item_pickup,c3ddd683
+42,76561198000238678,knife,2449,True,Erick,item_pickup,c3ddd683
+10,76561198178993731,famas,2449,True,Siraissi,item_pickup,c3ddd683
+42,76561198178993731,knife,2449,True,Siraissi,item_pickup,c3ddd683
+42,76561197996437459,knife,2471,True,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,2471,True,【﻿ＰＫ】,item_pickup,c3ddd683
+60,76561197996437459,m4a1,2473,True,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561197996437459,knife,2473,True,【﻿ＰＫ】,item_pickup,c3ddd683
+60,76561198340888446,m4a1,2473,True,MonsTro,item_pickup,c3ddd683
+42,76561198340888446,knife,2473,True,MonsTro,item_pickup,c3ddd683
+42,76561198100001022,knife,2565,True,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,2565,True,Luiz,item_pickup,c3ddd683
+4,76561198100001022,glock,2569,True,Luiz,item_pickup,c3ddd683
+42,76561198100001022,knife,2569,True,Luiz,item_pickup,c3ddd683
+4,76561198397576589,glock,2569,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198397576589,knife,2569,True,AVARA KÉRABA,item_pickup,c3ddd683
+520,76561198051880621,knife,2575,True,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,2575,True,Cujura,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,2581,True,Talevor,item_pickup,c3ddd683
+42,76561198124241179,knife,2581,True,Talevor,item_pickup,c3ddd683
+61,76561198051880621,hkp2000,2581,True,Cujura,item_pickup,c3ddd683
+520,76561198051880621,knife,2581,True,Cujura,item_pickup,c3ddd683
+42,76561198421514418,knife,2813,True,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,2813,True,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198421514418,glock,2815,True,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198421514418,knife,2815,True,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198340888446,glock,2815,True,MonsTro,item_pickup,c3ddd683
+42,76561198340888446,knife,2815,True,MonsTro,item_pickup,c3ddd683
+42,76561197996437459,knife,2869,True,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,2869,True,【﻿ＰＫ】,item_pickup,c3ddd683
+13,76561197996437459,galilar,2875,True,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561197996437459,knife,2875,True,【﻿ＰＫ】,item_pickup,c3ddd683
+13,76561198026214582,galilar,2875,True,Connan,item_pickup,c3ddd683
+42,76561198026214582,knife,2875,True,Connan,item_pickup,c3ddd683
+59,76561198397576589,knife,2877,True,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,2877,True,AVARA KÉRABA,item_pickup,c3ddd683
+1,76561198100001022,deagle,2881,True,Luiz,item_pickup,c3ddd683
+42,76561198100001022,knife,2881,True,Luiz,item_pickup,c3ddd683
+1,76561198397576589,deagle,2881,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198397576589,knife,2881,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198000238678,knife,3009,True,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,3009,True,Erick,item_pickup,c3ddd683
+60,76561198000238678,m4a1,3013,True,Erick,item_pickup,c3ddd683
+42,76561198000238678,knife,3013,True,Erick,item_pickup,c3ddd683
+60,76561198178993731,m4a1,3013,True,Siraissi,item_pickup,c3ddd683
+42,76561198178993731,knife,3013,True,Siraissi,item_pickup,c3ddd683
+42,76561198124241179,knife,3099,True,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,3099,True,Talevor,item_pickup,c3ddd683
+9,76561198124241179,awp,3103,True,Talevor,item_pickup,c3ddd683
+42,76561198124241179,knife,3103,True,Talevor,item_pickup,c3ddd683
+9,76561198051880621,awp,3103,True,Cujura,item_pickup,c3ddd683
+520,76561198051880621,knife,3103,True,Cujura,item_pickup,c3ddd683
+59,76561198026214582,knife,3179,True,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,3179,True,Connan,item_pickup,c3ddd683
+7,76561197996437459,ak47,3181,True,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561197996437459,knife,3181,True,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198026214582,ak47,3181,True,Connan,item_pickup,c3ddd683
+42,76561198026214582,knife,3181,True,Connan,item_pickup,c3ddd683
+59,76561198397576589,knife,3229,True,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,3229,True,AVARA KÉRABA,item_pickup,c3ddd683
+10,76561198100001022,famas,3235,True,Luiz,item_pickup,c3ddd683
+42,76561198100001022,knife,3235,True,Luiz,item_pickup,c3ddd683
+10,76561198397576589,famas,3235,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198397576589,knife,3235,True,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198340888446,glock,3397,False,MonsTro,item_pickup,c3ddd683
+42,76561198421514418,knife,3469,True,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,3469,True,rodrigaoobrabo,item_pickup,c3ddd683
+60,76561198421514418,m4a1,3475,True,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198421514418,knife,3475,True,rodrigaoobrabo,item_pickup,c3ddd683
+60,76561198340888446,m4a1,3475,True,MonsTro,item_pickup,c3ddd683
+42,76561198340888446,knife,3475,True,MonsTro,item_pickup,c3ddd683
+42,76561197996437459,knife,3497,True,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,3497,True,【﻿ＰＫ】,item_pickup,c3ddd683
+60,76561197996437459,m4a1,3499,True,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561197996437459,knife,3499,True,【﻿ＰＫ】,item_pickup,c3ddd683
+60,76561198026214582,m4a1,3499,True,Connan,item_pickup,c3ddd683
+42,76561198026214582,knife,3499,True,Connan,item_pickup,c3ddd683
+42,76561198100001022,knife,3527,True,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,3527,True,Luiz,item_pickup,c3ddd683
+7,76561198100001022,ak47,3529,True,Luiz,item_pickup,c3ddd683
+42,76561198100001022,knife,3529,True,Luiz,item_pickup,c3ddd683
+7,76561198397576589,ak47,3529,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198397576589,knife,3529,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198000238678,knife,3791,True,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,3791,True,Erick,item_pickup,c3ddd683
+4,76561198000238678,glock,3793,True,Erick,item_pickup,c3ddd683
+42,76561198000238678,knife,3793,True,Erick,item_pickup,c3ddd683
+4,76561198178993731,glock,3793,True,Siraissi,item_pickup,c3ddd683
+42,76561198178993731,knife,3793,True,Siraissi,item_pickup,c3ddd683
+59,76561198026214582,knife,3841,True,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,3841,True,Connan,item_pickup,c3ddd683
+10,76561197996437459,famas,3847,True,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561197996437459,knife,3847,True,【﻿ＰＫ】,item_pickup,c3ddd683
+10,76561198026214582,famas,3847,True,Connan,item_pickup,c3ddd683
+42,76561198026214582,knife,3847,True,Connan,item_pickup,c3ddd683
+42,76561198100001022,knife,3851,True,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,3851,True,Luiz,item_pickup,c3ddd683
+10,76561198100001022,famas,3853,True,Luiz,item_pickup,c3ddd683
+42,76561198100001022,knife,3853,True,Luiz,item_pickup,c3ddd683
+10,76561198397576589,famas,3853,True,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198397576589,knife,3853,True,AVARA KÉRABA,item_pickup,c3ddd683
+9,76561198124241179,awp,3901,True,Talevor,item_pickup,c3ddd683
+59,76561198178993731,knife,3979,False,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,3979,False,Siraissi,item_pickup,c3ddd683
+42,76561198000238678,knife,3979,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,3979,False,Erick,item_pickup,c3ddd683
+59,76561198397576589,knife,3979,False,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,3979,False,AVARA KÉRABA,item_pickup,c3ddd683
+59,76561198340888446,knife,3979,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,3979,False,MonsTro,item_pickup,c3ddd683
+42,76561198124241179,knife,3979,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,3979,False,Talevor,item_pickup,c3ddd683
+42,76561197996437459,knife,3979,False,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,3979,False,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561198100001022,knife,3979,False,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,3979,False,Luiz,item_pickup,c3ddd683
+42,76561198421514418,knife,3979,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,3979,False,rodrigaoobrabo,item_pickup,c3ddd683
+59,76561198026214582,knife,3979,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,3979,False,Connan,item_pickup,c3ddd683
+520,76561198051880621,knife,3979,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,3979,False,Cujura,item_pickup,c3ddd683
+49,76561198397576589,c4,3979,False,AVARA KÉRABA,item_pickup,c3ddd683
+50,76561198100001022,vest,4067,False,Luiz,item_pickup,c3ddd683
+50,76561198421514418,vest,4201,False,rodrigaoobrabo,item_pickup,c3ddd683
+50,76561198178993731,vest,4205,False,Siraissi,item_pickup,c3ddd683
+49,76561198340888446,c4,4211,False,MonsTro,item_pickup,c3ddd683
+50,76561198397576589,vest,4239,False,AVARA KÉRABA,item_pickup,c3ddd683
+50,76561198340888446,vest,4315,False,MonsTro,item_pickup,c3ddd683
+55,76561198124241179,defuser,4351,False,Talevor,item_pickup,c3ddd683
+44,76561198124241179,hegrenade,4445,False,Talevor,item_pickup,c3ddd683
+49,76561198178993731,c4,4563,False,Siraissi,item_pickup,c3ddd683
+36,76561198026214582,p250,4869,False,Connan,item_pickup,c3ddd683
+50,76561198000238678,vest,4965,False,Erick,item_pickup,c3ddd683
+44,76561198026214582,hegrenade,4995,False,Connan,item_pickup,c3ddd683
+43,76561198026214582,flashbang,5055,False,Connan,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,5089,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,5119,False,Cujura,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,5151,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,5171,False,【﻿ＰＫ】,item_pickup,c3ddd683
+36,76561198051880621,p250,5179,False,Cujura,item_pickup,c3ddd683
+43,76561197996437459,flashbang,5181,False,【﻿ＰＫ】,item_pickup,c3ddd683
+4,76561198051880621,glock,5545,False,Cujura,item_pickup,c3ddd683
+36,76561198397576589,p250,5631,False,AVARA KÉRABA,item_pickup,c3ddd683
+55,76561198100001022,defuser,11245,False,Luiz,item_pickup,c3ddd683
+42,76561198000238678,knife,12243,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,12243,False,Erick,item_pickup,c3ddd683
+520,76561198051880621,knife,12243,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,12243,False,Cujura,item_pickup,c3ddd683
+42,76561198421514418,knife,12243,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,12243,False,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198124241179,knife,12243,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,12243,False,Talevor,item_pickup,c3ddd683
+59,76561198397576589,knife,12243,False,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,12243,False,AVARA KÉRABA,item_pickup,c3ddd683
+59,76561198026214582,knife,12243,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,12243,False,Connan,item_pickup,c3ddd683
+42,76561197996437459,knife,12243,False,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,12243,False,【﻿ＰＫ】,item_pickup,c3ddd683
+59,76561198178993731,knife,12243,False,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,12243,False,Siraissi,item_pickup,c3ddd683
+59,76561198340888446,knife,12243,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,12243,False,MonsTro,item_pickup,c3ddd683
+49,76561198051880621,c4,12243,False,Cujura,item_pickup,c3ddd683
+34,76561198421514418,mp9,13491,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,13675,False,rodrigaoobrabo,item_pickup,c3ddd683
+34,76561197996437459,mp9,13679,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,13711,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,13857,False,【﻿ＰＫ】,item_pickup,c3ddd683
+55,76561198124241179,defuser,13859,False,Talevor,item_pickup,c3ddd683
+1,76561198124241179,deagle,13937,False,Talevor,item_pickup,c3ddd683
+1,76561198100001022,deagle,14141,False,Luiz,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,14165,False,Luiz,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,14165,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,14173,False,Talevor,item_pickup,c3ddd683
+44,76561198124241179,hegrenade,14203,False,Talevor,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,14215,False,Luiz,item_pickup,c3ddd683
+44,76561198100001022,hegrenade,14231,False,Luiz,item_pickup,c3ddd683
+43,76561198124241179,flashbang,14249,False,Talevor,item_pickup,c3ddd683
+40,76561198000238678,ssg08,14421,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,14531,False,Erick,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,14855,False,Cujura,item_pickup,c3ddd683
+17,76561198051880621,mac10,15055,False,Cujura,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,15157,False,Siraissi,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,15219,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,15219,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,15219,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,15219,False,Cujura,item_pickup,c3ddd683
+7,76561198178993731,ak47,15313,False,Siraissi,item_pickup,c3ddd683
+46,76561198178993731,molotov,15351,False,Siraissi,item_pickup,c3ddd683
+17,76561198026214582,mac10,15375,False,Connan,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,15381,False,AVARA KÉRABA,item_pickup,c3ddd683
+13,76561198397576589,galilar,15411,False,AVARA KÉRABA,item_pickup,c3ddd683
+46,76561198397576589,molotov,15435,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,15447,True,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,15457,True,AVARA KÉRABA,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,15595,False,MonsTro,item_pickup,c3ddd683
+17,76561198340888446,mac10,15629,True,MonsTro,item_pickup,c3ddd683
+46,76561198340888446,molotov,15681,True,MonsTro,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,15689,True,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,15701,True,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,15711,True,MonsTro,item_pickup,c3ddd683
+49,76561198397576589,c4,15891,False,AVARA KÉRABA,item_pickup,c3ddd683
+49,76561198397576589,c4,16051,False,AVARA KÉRABA,item_pickup,c3ddd683
+49,76561198051880621,c4,17079,False,Cujura,item_pickup,c3ddd683
+34,76561198124241179,mp9,17569,False,Talevor,item_pickup,c3ddd683
+1,76561197996437459,deagle,18047,False,【﻿ＰＫ】,item_pickup,c3ddd683
+49,76561198178993731,c4,18201,True,Siraissi,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,18319,True,Talevor,item_pickup,c3ddd683
+43,76561198340888446,flashbang,19505,False,MonsTro,item_pickup,c3ddd683
+49,76561198340888446,c4,20251,False,MonsTro,item_pickup,c3ddd683
+17,76561197996437459,mac10,20533,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198397576589,ak47,20951,False,AVARA KÉRABA,item_pickup,c3ddd683
+40,76561198100001022,ssg08,22067,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,22083,False,Luiz,item_pickup,c3ddd683
+59,76561198340888446,knife,22789,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,22789,False,MonsTro,item_pickup,c3ddd683
+42,76561198100001022,knife,22789,False,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,22789,False,Luiz,item_pickup,c3ddd683
+520,76561198051880621,knife,22789,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,22789,False,Cujura,item_pickup,c3ddd683
+59,76561198178993731,knife,22789,False,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,22789,False,Siraissi,item_pickup,c3ddd683
+59,76561198026214582,knife,22789,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,22789,False,Connan,item_pickup,c3ddd683
+42,76561198000238678,knife,22789,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,22789,False,Erick,item_pickup,c3ddd683
+42,76561197996437459,knife,22789,False,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,22789,False,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561198124241179,knife,22789,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,22789,False,Talevor,item_pickup,c3ddd683
+42,76561198421514418,knife,22789,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,22789,False,rodrigaoobrabo,item_pickup,c3ddd683
+49,76561198178993731,c4,22789,False,Siraissi,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,23014,False,Cujura,item_pickup,c3ddd683
+46,76561198051880621,molotov,23046,False,Cujura,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,23052,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,23052,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,23052,False,Cujura,item_pickup,c3ddd683
+7,76561198026214582,ak47,23080,False,Connan,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,23114,False,Siraissi,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,23120,False,Connan,item_pickup,c3ddd683
+7,76561198051880621,ak47,23166,False,Cujura,item_pickup,c3ddd683
+13,76561198178993731,galilar,23188,False,Siraissi,item_pickup,c3ddd683
+1,76561198100001022,deagle,23206,False,Luiz,item_pickup,c3ddd683
+46,76561198178993731,molotov,23228,False,Siraissi,item_pickup,c3ddd683
+7,76561198397576589,ak47,23248,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198178993731,flashbang,23260,False,Siraissi,item_pickup,c3ddd683
+44,76561198100001022,hegrenade,23272,False,Luiz,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,23290,False,MonsTro,item_pickup,c3ddd683
+7,76561198340888446,ak47,23336,False,MonsTro,item_pickup,c3ddd683
+43,76561198000238678,flashbang,23342,False,Erick,item_pickup,c3ddd683
+46,76561198397576589,molotov,23344,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,23360,False,AVARA KÉRABA,item_pickup,c3ddd683
+49,76561198397576589,c4,23360,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,23370,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,23378,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,23398,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,23410,False,MonsTro,item_pickup,c3ddd683
+46,76561198340888446,molotov,23462,False,MonsTro,item_pickup,c3ddd683
+49,76561198340888446,c4,24580,False,MonsTro,item_pickup,c3ddd683
+7,76561198397576589,ak47,25916,False,AVARA KÉRABA,item_pickup,c3ddd683
+7,76561198178993731,ak47,27140,True,Siraissi,item_pickup,c3ddd683
+49,76561198178993731,c4,27298,False,Siraissi,item_pickup,c3ddd683
+46,76561198397576589,molotov,28198,False,AVARA KÉRABA,item_pickup,c3ddd683
+7,76561198397576589,ak47,28202,False,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198124241179,knife,28337,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,28337,False,Talevor,item_pickup,c3ddd683
+42,76561198000238678,knife,28337,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,28337,False,Erick,item_pickup,c3ddd683
+59,76561198340888446,knife,28337,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,28337,False,MonsTro,item_pickup,c3ddd683
+42,76561198421514418,knife,28337,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,28337,False,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561197996437459,knife,28337,False,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,28337,False,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561198100001022,knife,28337,False,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,28337,False,Luiz,item_pickup,c3ddd683
+59,76561198026214582,knife,28337,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,28337,False,Connan,item_pickup,c3ddd683
+520,76561198051880621,knife,28337,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,28337,False,Cujura,item_pickup,c3ddd683
+49,76561198340888446,c4,28337,False,MonsTro,item_pickup,c3ddd683
+9,76561198421514418,awp,28411,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,28429,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,28433,False,Siraissi,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,28447,False,Siraissi,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,28535,False,MonsTro,item_pickup,c3ddd683
+16,76561197996437459,m4a1,28551,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561198421514418,flashbang,28551,False,rodrigaoobrabo,item_pickup,c3ddd683
+46,76561198340888446,molotov,28571,False,MonsTro,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,28571,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198026214582,ak47,28575,False,Connan,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,28581,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,28593,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,28603,False,MonsTro,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,28651,False,【﻿ＰＫ】,item_pickup,c3ddd683
+16,76561198124241179,m4a1,28657,False,Talevor,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,28665,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,28673,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,28683,False,【﻿ＰＫ】,item_pickup,c3ddd683
+49,76561198026214582,c4,28697,False,Connan,item_pickup,c3ddd683
+7,76561198397576589,ak47,28699,False,AVARA KÉRABA,item_pickup,c3ddd683
+60,76561198000238678,m4a1,28735,False,Erick,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,28739,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,28751,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,28761,False,AVARA KÉRABA,item_pickup,c3ddd683
+50,76561198000238678,vest,28913,False,Erick,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,28933,False,Talevor,item_pickup,c3ddd683
+55,76561198124241179,defuser,28941,False,Talevor,item_pickup,c3ddd683
+55,76561197996437459,defuser,28969,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198340888446,ak47,28973,False,MonsTro,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,28993,False,Erick,item_pickup,c3ddd683
+7,76561198026214582,ak47,29003,False,Connan,item_pickup,c3ddd683
+43,76561198000238678,flashbang,29015,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,29027,False,Erick,item_pickup,c3ddd683
+16,76561198100001022,m4a1,29039,False,Luiz,item_pickup,c3ddd683
+43,76561198124241179,flashbang,29045,False,Talevor,item_pickup,c3ddd683
+48,76561198124241179,incgrenade,29055,False,Talevor,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,29057,False,Connan,item_pickup,c3ddd683
+43,76561198124241179,flashbang,29093,False,Talevor,item_pickup,c3ddd683
+48,76561198000238678,incgrenade,29113,False,Erick,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,29133,False,Luiz,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,29153,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,29167,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,29179,False,Luiz,item_pickup,c3ddd683
+48,76561198100001022,incgrenade,29193,False,Luiz,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,29545,False,Cujura,item_pickup,c3ddd683
+7,76561198051880621,ak47,29557,False,Cujura,item_pickup,c3ddd683
+46,76561198051880621,molotov,29571,False,Cujura,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,29575,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,29575,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,29575,False,Cujura,item_pickup,c3ddd683
+43,76561198026214582,flashbang,33951,False,Connan,item_pickup,c3ddd683
+43,76561198178993731,flashbang,34509,True,Siraissi,item_pickup,c3ddd683
+42,76561198000238678,knife,36194,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,36194,False,Erick,item_pickup,c3ddd683
+59,76561198397576589,knife,36194,False,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,36194,False,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198100001022,knife,36194,False,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,36194,False,Luiz,item_pickup,c3ddd683
+42,76561198124241179,knife,36194,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,36194,False,Talevor,item_pickup,c3ddd683
+59,76561198340888446,knife,36194,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,36194,False,MonsTro,item_pickup,c3ddd683
+42,76561197996437459,knife,36194,False,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,36194,False,【﻿ＰＫ】,item_pickup,c3ddd683
+59,76561198026214582,knife,36194,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,36194,False,Connan,item_pickup,c3ddd683
+42,76561198421514418,knife,36194,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,36194,False,rodrigaoobrabo,item_pickup,c3ddd683
+49,76561198026214582,c4,36194,False,Connan,item_pickup,c3ddd683
+46,76561198178993731,molotov,36334,False,Siraissi,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,36350,False,Siraissi,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,36364,False,Siraissi,item_pickup,c3ddd683
+46,76561198051880621,molotov,36398,False,Cujura,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,36406,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,36406,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,36406,False,Cujura,item_pickup,c3ddd683
+7,76561198026214582,ak47,36440,False,Connan,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,36460,False,MonsTro,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,36482,False,Connan,item_pickup,c3ddd683
+7,76561198340888446,ak47,36518,False,MonsTro,item_pickup,c3ddd683
+64,76561197996437459,deagle,36560,False,【﻿ＰＫ】,item_pickup,c3ddd683
+46,76561198340888446,molotov,36574,False,MonsTro,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,36586,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,36600,False,MonsTro,item_pickup,c3ddd683
+1,76561198100001022,deagle,36602,False,Luiz,item_pickup,c3ddd683
+50,76561198100001022,vest,36630,False,Luiz,item_pickup,c3ddd683
+34,76561198000238678,mp9,36632,False,Erick,item_pickup,c3ddd683
+44,76561198100001022,hegrenade,36682,False,Luiz,item_pickup,c3ddd683
+50,76561198000238678,vest,36728,False,Erick,item_pickup,c3ddd683
+7,76561198397576589,ak47,36788,False,AVARA KÉRABA,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,36794,False,【﻿ＰＫ】,item_pickup,c3ddd683
+36,76561198124241179,p250,36850,False,Talevor,item_pickup,c3ddd683
+7,76561198178993731,ak47,36850,False,Siraissi,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,36868,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198000238678,flashbang,36880,False,Erick,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,36904,False,【﻿ＰＫ】,item_pickup,c3ddd683
+46,76561198397576589,molotov,36908,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,36922,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,36934,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,36942,False,AVARA KÉRABA,item_pickup,c3ddd683
+31,76561198421514418,taser,37018,False,rodrigaoobrabo,item_pickup,c3ddd683
+63,76561198421514418,p250,37160,False,rodrigaoobrabo,item_pickup,c3ddd683
+7,76561198421514418,ak47,39072,True,rodrigaoobrabo,item_pickup,c3ddd683
+7,76561197996437459,ak47,39090,False,【﻿ＰＫ】,item_pickup,c3ddd683
+46,76561198421514418,molotov,39126,True,rodrigaoobrabo,item_pickup,c3ddd683
+64,76561197996437459,deagle,39352,False,【﻿ＰＫ】,item_pickup,c3ddd683
+36,76561198397576589,p250,41890,True,AVARA KÉRABA,item_pickup,c3ddd683
+46,76561198100001022,molotov,43226,True,Luiz,item_pickup,c3ddd683
+7,76561198100001022,ak47,43226,True,Luiz,item_pickup,c3ddd683
+31,76561198100001022,taser,43324,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,43406,False,Luiz,item_pickup,c3ddd683
+42,76561198000238678,knife,45722,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,45722,False,Erick,item_pickup,c3ddd683
+42,76561198421514418,knife,45722,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,45722,False,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561197996437459,knife,45722,False,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,45722,False,【﻿ＰＫ】,item_pickup,c3ddd683
+59,76561198397576589,knife,45722,False,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,45722,False,AVARA KÉRABA,item_pickup,c3ddd683
+520,76561198051880621,knife,45722,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,45722,False,Cujura,item_pickup,c3ddd683
+59,76561198340888446,knife,45722,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,45722,False,MonsTro,item_pickup,c3ddd683
+59,76561198178993731,knife,45722,False,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,45722,False,Siraissi,item_pickup,c3ddd683
+42,76561198124241179,knife,45722,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,45722,False,Talevor,item_pickup,c3ddd683
+59,76561198026214582,knife,45722,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,45722,False,Connan,item_pickup,c3ddd683
+49,76561198397576589,c4,45722,False,AVARA KÉRABA,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,45846,False,Cujura,item_pickup,c3ddd683
+16,76561197996437459,m4a1,45880,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,45898,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198051880621,ak47,45910,False,Cujura,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,45934,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,45934,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,45934,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,45934,False,Cujura,item_pickup,c3ddd683
+9,76561198421514418,awp,45944,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,45976,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,45988,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,46000,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,46008,False,【﻿ＰＫ】,item_pickup,c3ddd683
+49,76561198051880621,c4,46012,False,Cujura,item_pickup,c3ddd683
+43,76561197996437459,flashbang,46018,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198026214582,ak47,46048,False,Connan,item_pickup,c3ddd683
+36,76561198421514418,p250,46128,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,46160,False,Siraissi,item_pickup,c3ddd683
+7,76561198178993731,ak47,46188,False,Siraissi,item_pickup,c3ddd683
+55,76561197996437459,defuser,46208,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,46226,False,Luiz,item_pickup,c3ddd683
+60,76561198000238678,m4a1,46240,False,Erick,item_pickup,c3ddd683
+46,76561198178993731,molotov,46272,False,Siraissi,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,46280,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,46288,False,Siraissi,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,46300,False,Siraissi,item_pickup,c3ddd683
+43,76561198178993731,flashbang,46310,False,Siraissi,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,46368,False,MonsTro,item_pickup,c3ddd683
+51,76561198000238678,vesthelm,46368,False,Erick,item_pickup,c3ddd683
+7,76561198397576589,ak47,46426,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,46446,False,Erick,item_pickup,c3ddd683
+48,76561198000238678,incgrenade,46464,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,46480,False,Erick,item_pickup,c3ddd683
+44,76561198000238678,hegrenade,46492,False,Erick,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,46500,False,Luiz,item_pickup,c3ddd683
+16,76561198124241179,m4a1,46516,False,Talevor,item_pickup,c3ddd683
+48,76561198100001022,incgrenade,46522,False,Luiz,item_pickup,c3ddd683
+7,76561198340888446,ak47,46530,False,MonsTro,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,46540,False,Talevor,item_pickup,c3ddd683
+43,76561198100001022,flashbang,46540,False,Luiz,item_pickup,c3ddd683
+55,76561198000238678,defuser,46558,False,Erick,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,46568,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,46578,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,46584,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,46594,False,Talevor,item_pickup,c3ddd683
+7,76561198397576589,ak47,46600,False,AVARA KÉRABA,item_pickup,c3ddd683
+48,76561198124241179,incgrenade,46604,False,Talevor,item_pickup,c3ddd683
+43,76561198397576589,flashbang,46642,False,AVARA KÉRABA,item_pickup,c3ddd683
+46,76561198340888446,molotov,46644,False,MonsTro,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,46654,False,MonsTro,item_pickup,c3ddd683
+43,76561198397576589,flashbang,46656,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198340888446,flashbang,46666,False,MonsTro,item_pickup,c3ddd683
+44,76561198340888446,hegrenade,46678,False,MonsTro,item_pickup,c3ddd683
+49,76561198340888446,c4,46704,False,MonsTro,item_pickup,c3ddd683
+50,76561198026214582,vest,46744,False,Connan,item_pickup,c3ddd683
+55,76561198100001022,defuser,46958,False,Luiz,item_pickup,c3ddd683
+49,76561198051880621,c4,47256,False,Cujura,item_pickup,c3ddd683
+49,76561198397576589,c4,47478,False,AVARA KÉRABA,item_pickup,c3ddd683
+46,76561198397576589,molotov,48188,False,AVARA KÉRABA,item_pickup,c3ddd683
+49,76561198026214582,c4,48356,False,Connan,item_pickup,c3ddd683
+49,76561198397576589,c4,49624,False,AVARA KÉRABA,item_pickup,c3ddd683
+49,76561198026214582,c4,51272,True,Connan,item_pickup,c3ddd683
+7,76561197996437459,ak47,53712,False,【﻿ＰＫ】,item_pickup,c3ddd683
+55,76561198421514418,defuser,53956,False,rodrigaoobrabo,item_pickup,c3ddd683
+59,76561198178993731,knife,53976,False,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,53976,False,Siraissi,item_pickup,c3ddd683
+42,76561198124241179,knife,53976,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,53976,False,Talevor,item_pickup,c3ddd683
+59,76561198397576589,knife,53976,False,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,53976,False,AVARA KÉRABA,item_pickup,c3ddd683
+59,76561198026214582,knife,53976,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,53976,False,Connan,item_pickup,c3ddd683
+42,76561198100001022,knife,53976,False,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,53976,False,Luiz,item_pickup,c3ddd683
+59,76561198340888446,knife,53976,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,53976,False,MonsTro,item_pickup,c3ddd683
+520,76561198051880621,knife,53976,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,53976,False,Cujura,item_pickup,c3ddd683
+49,76561198051880621,c4,53976,False,Cujura,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,54101,False,rodrigaoobrabo,item_pickup,c3ddd683
+48,76561198421514418,incgrenade,54109,False,rodrigaoobrabo,item_pickup,c3ddd683
+44,76561198421514418,hegrenade,54119,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198421514418,flashbang,54127,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,54167,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,54179,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,54187,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,54195,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,54315,False,Erick,item_pickup,c3ddd683
+48,76561198000238678,incgrenade,54333,False,Erick,item_pickup,c3ddd683
+44,76561198000238678,hegrenade,54353,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,54369,False,Erick,item_pickup,c3ddd683
+16,76561198124241179,m4a1,54393,False,Talevor,item_pickup,c3ddd683
+16,76561198100001022,m4a1,54431,False,Luiz,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,54449,False,Luiz,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,54473,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,54487,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,54501,False,Luiz,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,54527,False,Talevor,item_pickup,c3ddd683
+48,76561198100001022,incgrenade,54533,False,Luiz,item_pickup,c3ddd683
+55,76561198124241179,defuser,54537,False,Talevor,item_pickup,c3ddd683
+55,76561198100001022,defuser,54549,False,Luiz,item_pickup,c3ddd683
+43,76561198124241179,flashbang,54591,False,Talevor,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,55137,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,55279,True,Cujura,item_pickup,c3ddd683
+30,76561198178993731,tec9,55287,True,Siraissi,item_pickup,c3ddd683
+48,76561198124241179,incgrenade,55349,False,Talevor,item_pickup,c3ddd683
+30,76561198340888446,tec9,55539,True,MonsTro,item_pickup,c3ddd683
+49,76561198397576589,c4,58611,False,AVARA KÉRABA,item_pickup,c3ddd683
+16,76561198000238678,m4a1,59445,True,Erick,item_pickup,c3ddd683
+4,76561198124241179,glock,59675,False,Talevor,item_pickup,c3ddd683
+42,76561198100001022,knife,59691,False,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,59691,False,Luiz,item_pickup,c3ddd683
+520,76561198051880621,knife,59691,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,59691,False,Cujura,item_pickup,c3ddd683
+59,76561198397576589,knife,59691,False,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,59691,False,AVARA KÉRABA,item_pickup,c3ddd683
+59,76561198026214582,knife,59691,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,59691,False,Connan,item_pickup,c3ddd683
+59,76561198178993731,knife,59691,False,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,59691,False,Siraissi,item_pickup,c3ddd683
+59,76561198340888446,knife,59691,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,59691,False,MonsTro,item_pickup,c3ddd683
+49,76561198178993731,c4,59691,False,Siraissi,item_pickup,c3ddd683
+44,76561198421514418,hegrenade,59834,False,rodrigaoobrabo,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,59842,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,59844,False,【﻿ＰＫ】,item_pickup,c3ddd683
+16,76561198100001022,m4a1,59898,False,Luiz,item_pickup,c3ddd683
+48,76561198124241179,incgrenade,59940,False,Talevor,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,59952,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,59964,False,Talevor,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,59992,False,Luiz,item_pickup,c3ddd683
+60,76561198000238678,m4a1,59998,False,Erick,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,60010,False,MonsTro,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,60014,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,60026,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,60040,False,Luiz,item_pickup,c3ddd683
+48,76561198100001022,incgrenade,60052,False,Luiz,item_pickup,c3ddd683
+7,76561198340888446,ak47,60054,False,MonsTro,item_pickup,c3ddd683
+55,76561198100001022,defuser,60066,False,Luiz,item_pickup,c3ddd683
+43,76561198124241179,flashbang,60076,False,Talevor,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,60084,False,Erick,item_pickup,c3ddd683
+48,76561198000238678,incgrenade,60098,False,Erick,item_pickup,c3ddd683
+43,76561198340888446,flashbang,60106,False,MonsTro,item_pickup,c3ddd683
+43,76561198000238678,flashbang,60114,False,Erick,item_pickup,c3ddd683
+44,76561198000238678,hegrenade,60128,False,Erick,item_pickup,c3ddd683
+47,76561198340888446,decoy,60150,False,MonsTro,item_pickup,c3ddd683
+7,76561198026214582,ak47,60216,False,Connan,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,60270,False,Connan,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,60382,False,Siraissi,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,60408,False,AVARA KÉRABA,item_pickup,c3ddd683
+7,76561198178993731,ak47,60420,False,Siraissi,item_pickup,c3ddd683
+7,76561198397576589,ak47,60442,False,AVARA KÉRABA,item_pickup,c3ddd683
+46,76561198178993731,molotov,60456,False,Siraissi,item_pickup,c3ddd683
+46,76561198397576589,molotov,60466,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,60474,False,Siraissi,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,60480,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,60484,False,Siraissi,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,60616,False,Cujura,item_pickup,c3ddd683
+7,76561198051880621,ak47,60626,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,60724,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,60746,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,60756,False,Cujura,item_pickup,c3ddd683
+49,76561198340888446,c4,61386,False,MonsTro,item_pickup,c3ddd683
+7,76561198340888446,ak47,61632,False,MonsTro,item_pickup,c3ddd683
+49,76561198051880621,c4,62150,True,Cujura,item_pickup,c3ddd683
+49,76561198026214582,c4,63470,True,Connan,item_pickup,c3ddd683
+42,76561198421514418,knife,70081,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,70081,False,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198124241179,knife,70081,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,70081,False,Talevor,item_pickup,c3ddd683
+59,76561198340888446,knife,70081,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,70081,False,MonsTro,item_pickup,c3ddd683
+59,76561198026214582,knife,70081,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,70081,False,Connan,item_pickup,c3ddd683
+520,76561198051880621,knife,70081,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,70081,False,Cujura,item_pickup,c3ddd683
+59,76561198397576589,knife,70081,False,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,70081,False,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198100001022,knife,70081,False,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,70081,False,Luiz,item_pickup,c3ddd683
+42,76561197996437459,knife,70081,False,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,70081,False,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561198000238678,knife,70081,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,70081,False,Erick,item_pickup,c3ddd683
+49,76561198340888446,c4,70081,False,MonsTro,item_pickup,c3ddd683
+49,76561198026214582,c4,70321,False,Connan,item_pickup,c3ddd683
+9,76561198421514418,awp,70339,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,70357,False,rodrigaoobrabo,item_pickup,c3ddd683
+16,76561197996437459,m4a1,70527,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,70549,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,70559,False,Cujura,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,70641,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,70641,False,【﻿ＰＫ】,item_pickup,c3ddd683
+46,76561198178993731,molotov,70641,False,Siraissi,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,70657,False,Siraissi,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,70669,False,Siraissi,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,70673,False,MonsTro,item_pickup,c3ddd683
+43,76561197996437459,flashbang,70679,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561198178993731,flashbang,70681,False,Siraissi,item_pickup,c3ddd683
+43,76561197996437459,flashbang,70693,False,【﻿ＰＫ】,item_pickup,c3ddd683
+50,76561198178993731,vest,70725,False,Siraissi,item_pickup,c3ddd683
+13,76561198340888446,galilar,70805,False,MonsTro,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,70867,False,MonsTro,item_pickup,c3ddd683
+16,76561198124241179,m4a1,70871,False,Talevor,item_pickup,c3ddd683
+43,76561198340888446,flashbang,70879,False,MonsTro,item_pickup,c3ddd683
+50,76561198124241179,vest,70911,False,Talevor,item_pickup,c3ddd683
+43,76561198340888446,flashbang,70933,False,MonsTro,item_pickup,c3ddd683
+16,76561198100001022,m4a1,70959,False,Luiz,item_pickup,c3ddd683
+50,76561198100001022,vest,70975,False,Luiz,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,71027,False,Luiz,item_pickup,c3ddd683
+17,76561198051880621,mac10,71033,False,Cujura,item_pickup,c3ddd683
+44,76561198100001022,hegrenade,71043,False,Luiz,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,71059,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198100001022,flashbang,71059,False,Luiz,item_pickup,c3ddd683
+7,76561198026214582,ak47,71073,False,Connan,item_pickup,c3ddd683
+43,76561198100001022,flashbang,71079,False,Luiz,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,71105,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,71105,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,71105,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,71105,False,Cujura,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,71113,False,Connan,item_pickup,c3ddd683
+13,76561198397576589,galilar,71119,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,71131,False,rodrigaoobrabo,item_pickup,c3ddd683
+48,76561198421514418,incgrenade,71139,False,rodrigaoobrabo,item_pickup,c3ddd683
+44,76561198421514418,hegrenade,71149,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198421514418,flashbang,71157,False,rodrigaoobrabo,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,71187,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,71199,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,71235,False,AVARA KÉRABA,item_pickup,c3ddd683
+60,76561198000238678,m4a1,71247,False,Erick,item_pickup,c3ddd683
+50,76561198000238678,vest,71331,False,Erick,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,71405,True,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,71431,False,Erick,item_pickup,c3ddd683
+44,76561198000238678,hegrenade,71469,False,Erick,item_pickup,c3ddd683
+9,76561198340888446,awp,73727,False,MonsTro,item_pickup,c3ddd683
+46,76561198340888446,molotov,74885,False,MonsTro,item_pickup,c3ddd683
+7,76561198026214582,ak47,75259,True,Connan,item_pickup,c3ddd683
+59,76561198178993731,knife,75533,False,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,75533,False,Siraissi,item_pickup,c3ddd683
+42,76561197996437459,knife,75533,False,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,75533,False,【﻿ＰＫ】,item_pickup,c3ddd683
+59,76561198397576589,knife,75533,False,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,75533,False,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198100001022,knife,75533,False,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,75533,False,Luiz,item_pickup,c3ddd683
+42,76561198000238678,knife,75533,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,75533,False,Erick,item_pickup,c3ddd683
+42,76561198124241179,knife,75533,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,75533,False,Talevor,item_pickup,c3ddd683
+42,76561198421514418,knife,75533,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,75533,False,rodrigaoobrabo,item_pickup,c3ddd683
+520,76561198051880621,knife,75533,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,75533,False,Cujura,item_pickup,c3ddd683
+49,76561198026214582,c4,75533,False,Connan,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,75851,False,Siraissi,item_pickup,c3ddd683
+7,76561198178993731,ak47,75881,False,Siraissi,item_pickup,c3ddd683
+7,76561198397576589,ak47,75913,False,AVARA KÉRABA,item_pickup,c3ddd683
+46,76561198178993731,molotov,75915,False,Siraissi,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,75929,False,Siraissi,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,75943,False,Siraissi,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,75945,False,Cujura,item_pickup,c3ddd683
+43,76561198178993731,flashbang,75953,False,Siraissi,item_pickup,c3ddd683
+31,76561198421514418,taser,75955,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,76009,False,AVARA KÉRABA,item_pickup,c3ddd683
+46,76561198051880621,molotov,76023,False,Cujura,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,76031,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,76031,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,76031,False,Cujura,item_pickup,c3ddd683
+46,76561198397576589,molotov,76049,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,76065,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,76075,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,76085,False,AVARA KÉRABA,item_pickup,c3ddd683
+36,76561198124241179,p250,76099,False,Talevor,item_pickup,c3ddd683
+7,76561198051880621,ak47,76137,False,Cujura,item_pickup,c3ddd683
+1,76561198100001022,deagle,76169,False,Luiz,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,76215,False,MonsTro,item_pickup,c3ddd683
+34,76561197996437459,mp9,76311,False,【﻿ＰＫ】,item_pickup,c3ddd683
+36,76561198340888446,p250,76323,False,MonsTro,item_pickup,c3ddd683
+3,76561198000238678,fiveseven,76433,False,Erick,item_pickup,c3ddd683
+43,76561198100001022,flashbang,76621,False,Luiz,item_pickup,c3ddd683
+31,76561197996437459,taser,76627,False,【﻿ＰＫ】,item_pickup,c3ddd683
+31,76561198397576589,taser,80673,False,AVARA KÉRABA,item_pickup,c3ddd683
+31,76561198340888446,taser,82337,False,MonsTro,item_pickup,c3ddd683
+42,76561198100001022,knife,82510,False,Luiz,item_pickup,c3ddd683
+32,76561198100001022,hkp2000,82510,False,Luiz,item_pickup,c3ddd683
+42,76561198000238678,knife,82510,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,82510,False,Erick,item_pickup,c3ddd683
+42,76561198421514418,knife,82510,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,82510,False,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561197996437459,knife,82510,False,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,82510,False,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561198124241179,knife,82510,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,82510,False,Talevor,item_pickup,c3ddd683
+49,76561198397576589,c4,82510,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,82604,False,Siraissi,item_pickup,c3ddd683
+43,76561198178993731,flashbang,82618,False,Siraissi,item_pickup,c3ddd683
+50,76561198026214582,vest,82736,False,Connan,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,82754,False,rodrigaoobrabo,item_pickup,c3ddd683
+60,76561198421514418,m4a1,82800,False,rodrigaoobrabo,item_pickup,c3ddd683
+9,76561197996437459,awp,82806,False,【﻿ＰＫ】,item_pickup,c3ddd683
+46,76561198397576589,molotov,82874,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,82892,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,82904,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,82912,False,AVARA KÉRABA,item_pickup,c3ddd683
+46,76561198051880621,molotov,82976,False,Cujura,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,82980,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,82980,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,82980,False,Cujura,item_pickup,c3ddd683
+60,76561198000238678,m4a1,83050,False,Erick,item_pickup,c3ddd683
+60,76561197996437459,m4a1,83114,False,【﻿ＰＫ】,item_pickup,c3ddd683
+50,76561198000238678,vest,83126,False,Erick,item_pickup,c3ddd683
+43,76561198340888446,flashbang,83136,False,MonsTro,item_pickup,c3ddd683
+9,76561198421514418,awp,83146,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198340888446,flashbang,83148,False,MonsTro,item_pickup,c3ddd683
+36,76561198421514418,p250,83186,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,83196,False,Erick,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,83212,False,rodrigaoobrabo,item_pickup,c3ddd683
+16,76561198124241179,m4a1,83212,False,Talevor,item_pickup,c3ddd683
+43,76561198000238678,flashbang,83214,False,Erick,item_pickup,c3ddd683
+48,76561198421514418,incgrenade,83224,False,rodrigaoobrabo,item_pickup,c3ddd683
+44,76561198421514418,hegrenade,83232,False,rodrigaoobrabo,item_pickup,c3ddd683
+48,76561198000238678,incgrenade,83240,False,Erick,item_pickup,c3ddd683
+44,76561198000238678,hegrenade,83260,False,Erick,item_pickup,c3ddd683
+16,76561198100001022,m4a1,83268,False,Luiz,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,83284,False,Luiz,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,83296,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,83316,False,Luiz,item_pickup,c3ddd683
+50,76561198124241179,vest,83328,False,Talevor,item_pickup,c3ddd683
+44,76561198100001022,hegrenade,83330,False,Luiz,item_pickup,c3ddd683
+55,76561198124241179,defuser,83338,False,Talevor,item_pickup,c3ddd683
+44,76561198124241179,hegrenade,83390,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,83400,False,Talevor,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,83404,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,83430,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,83436,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,83458,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,83460,False,Talevor,item_pickup,c3ddd683
+55,76561198000238678,defuser,83546,False,Erick,item_pickup,c3ddd683
+49,76561198051880621,c4,83800,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,84522,False,Cujura,item_pickup,c3ddd683
+49,76561198340888446,c4,87258,True,MonsTro,item_pickup,c3ddd683
+49,76561198340888446,c4,89316,False,MonsTro,item_pickup,c3ddd683
+48,76561198397576589,incgrenade,90768,False,AVARA KÉRABA,item_pickup,c3ddd683
+49,76561198397576589,c4,90812,False,AVARA KÉRABA,item_pickup,c3ddd683
+9,76561198026214582,awp,90814,False,Connan,item_pickup,c3ddd683
+7,76561198026214582,ak47,91038,False,Connan,item_pickup,c3ddd683
+59,76561198178993731,knife,91592,False,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,91592,False,Siraissi,item_pickup,c3ddd683
+42,76561198124241179,knife,91592,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,91592,False,Talevor,item_pickup,c3ddd683
+59,76561198340888446,knife,91592,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,91592,False,MonsTro,item_pickup,c3ddd683
+520,76561198051880621,knife,91592,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,91592,False,Cujura,item_pickup,c3ddd683
+42,76561198421514418,knife,91592,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,91592,False,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198000238678,knife,91592,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,91592,False,Erick,item_pickup,c3ddd683
+49,76561198051880621,c4,91592,False,Cujura,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,91707,False,Cujura,item_pickup,c3ddd683
+7,76561198051880621,ak47,91723,False,Cujura,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,91743,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,91755,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,91765,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,91773,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,91801,False,MonsTro,item_pickup,c3ddd683
+46,76561198051880621,molotov,91825,False,Cujura,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,91831,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,91831,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,91831,False,Cujura,item_pickup,c3ddd683
+7,76561198340888446,ak47,91841,False,MonsTro,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,91855,False,Luiz,item_pickup,c3ddd683
+44,76561198100001022,hegrenade,91869,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,91885,False,Luiz,item_pickup,c3ddd683
+46,76561198340888446,molotov,91895,False,MonsTro,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,91905,False,MonsTro,item_pickup,c3ddd683
+48,76561198100001022,incgrenade,91907,False,Luiz,item_pickup,c3ddd683
+43,76561198340888446,flashbang,91917,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,91929,False,MonsTro,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,92053,False,Siraissi,item_pickup,c3ddd683
+7,76561198178993731,ak47,92083,False,Siraissi,item_pickup,c3ddd683
+46,76561198178993731,molotov,92119,False,Siraissi,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,92135,False,Siraissi,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,92149,False,Siraissi,item_pickup,c3ddd683
+43,76561198178993731,flashbang,92161,False,Siraissi,item_pickup,c3ddd683
+50,76561198397576589,vest,92251,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,92297,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,92311,False,AVARA KÉRABA,item_pickup,c3ddd683
+34,76561198000238678,mp9,92311,False,Erick,item_pickup,c3ddd683
+43,76561198397576589,flashbang,92321,False,AVARA KÉRABA,item_pickup,c3ddd683
+51,76561198000238678,vesthelm,92363,False,Erick,item_pickup,c3ddd683
+50,76561198421514418,vest,92369,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,92453,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,92477,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,92487,False,Erick,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,92489,False,Talevor,item_pickup,c3ddd683
+55,76561198124241179,defuser,92509,False,Talevor,item_pickup,c3ddd683
+48,76561198000238678,incgrenade,92517,False,Erick,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,92545,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,92553,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,92561,False,Talevor,item_pickup,c3ddd683
+34,76561198421514418,mp9,92565,False,rodrigaoobrabo,item_pickup,c3ddd683
+48,76561198124241179,incgrenade,92583,False,Talevor,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,92591,False,rodrigaoobrabo,item_pickup,c3ddd683
+55,76561198100001022,defuser,92677,False,Luiz,item_pickup,c3ddd683
+48,76561198421514418,incgrenade,92797,False,rodrigaoobrabo,item_pickup,c3ddd683
+44,76561198421514418,hegrenade,92807,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198421514418,flashbang,92817,False,rodrigaoobrabo,item_pickup,c3ddd683
+10,76561198124241179,famas,92921,False,Talevor,item_pickup,c3ddd683
+49,76561198051880621,c4,93445,False,Cujura,item_pickup,c3ddd683
+7,76561198421514418,ak47,94681,True,rodrigaoobrabo,item_pickup,c3ddd683
+46,76561198421514418,molotov,95907,True,rodrigaoobrabo,item_pickup,c3ddd683
+49,76561198397576589,c4,95957,False,AVARA KÉRABA,item_pickup,c3ddd683
+31,76561198026214582,taser,99107,True,Connan,item_pickup,c3ddd683
+49,76561198026214582,c4,99111,True,Connan,item_pickup,c3ddd683
+7,76561198100001022,ak47,100599,True,Luiz,item_pickup,c3ddd683
+59,76561198340888446,knife,100686,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,100686,False,MonsTro,item_pickup,c3ddd683
+59,76561198178993731,knife,100686,False,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,100686,False,Siraissi,item_pickup,c3ddd683
+59,76561198026214582,knife,100686,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,100686,False,Connan,item_pickup,c3ddd683
+59,76561198397576589,knife,100686,False,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,100686,False,AVARA KÉRABA,item_pickup,c3ddd683
+520,76561198051880621,knife,100686,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,100686,False,Cujura,item_pickup,c3ddd683
+42,76561198000238678,knife,100686,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,100686,False,Erick,item_pickup,c3ddd683
+42,76561198421514418,knife,100686,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,100686,False,rodrigaoobrabo,item_pickup,c3ddd683
+49,76561198178993731,c4,100686,False,Siraissi,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,100812,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,100824,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,100830,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,100840,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198421514418,ak47,101202,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,101222,False,AVARA KÉRABA,item_pickup,c3ddd683
+7,76561198397576589,ak47,101264,False,AVARA KÉRABA,item_pickup,c3ddd683
+10,76561198000238678,famas,101270,False,Erick,item_pickup,c3ddd683
+9,76561198100001022,awp,101282,False,Luiz,item_pickup,c3ddd683
+46,76561198397576589,molotov,101298,False,AVARA KÉRABA,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,101322,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198397576589,flashbang,101330,False,AVARA KÉRABA,item_pickup,c3ddd683
+55,76561198421514418,defuser,101338,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198000238678,vesthelm,101346,False,Erick,item_pickup,c3ddd683
+16,76561198124241179,m4a1,101350,False,Talevor,item_pickup,c3ddd683
+43,76561198397576589,flashbang,101362,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,101366,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,101366,False,Luiz,item_pickup,c3ddd683
+48,76561198421514418,incgrenade,101378,False,rodrigaoobrabo,item_pickup,c3ddd683
+44,76561198421514418,hegrenade,101386,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198100001022,flashbang,101388,False,Luiz,item_pickup,c3ddd683
+43,76561198421514418,flashbang,101394,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198100001022,flashbang,101412,False,Luiz,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,101498,False,Erick,item_pickup,c3ddd683
+48,76561198000238678,incgrenade,101524,False,Erick,item_pickup,c3ddd683
+43,76561198124241179,flashbang,101538,False,Talevor,item_pickup,c3ddd683
+43,76561198000238678,flashbang,101544,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,101558,False,Erick,item_pickup,c3ddd683
+7,76561198026214582,ak47,101588,False,Connan,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,101614,False,Cujura,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,101630,False,MonsTro,item_pickup,c3ddd683
+55,76561198000238678,defuser,101650,False,Erick,item_pickup,c3ddd683
+17,76561198051880621,mac10,101668,False,Cujura,item_pickup,c3ddd683
+30,76561198340888446,tec9,101688,False,MonsTro,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,101718,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,101718,False,Cujura,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,101736,False,Connan,item_pickup,c3ddd683
+43,76561198340888446,flashbang,101744,False,MonsTro,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,101746,False,Siraissi,item_pickup,c3ddd683
+43,76561198340888446,flashbang,101754,False,MonsTro,item_pickup,c3ddd683
+17,76561198178993731,mac10,101824,False,Siraissi,item_pickup,c3ddd683
+49,76561198178993731,c4,102032,False,Siraissi,item_pickup,c3ddd683
+49,76561198340888446,c4,102450,False,MonsTro,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,104256,True,Siraissi,item_pickup,c3ddd683
+7,76561198178993731,ak47,104264,True,Siraissi,item_pickup,c3ddd683
+49,76561198051880621,c4,104422,False,Cujura,item_pickup,c3ddd683
+43,76561197996437459,flashbang,106126,False,【﻿ＰＫ】,item_pickup,c3ddd683
+16,76561197996437459,m4a1,106762,False,【﻿ＰＫ】,item_pickup,c3ddd683
+55,76561197996437459,defuser,106934,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198000238678,ak47,107020,False,Erick,item_pickup,c3ddd683
+44,76561198000238678,hegrenade,107050,False,Erick,item_pickup,c3ddd683
+59,76561198340888446,knife,107358,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,107358,False,MonsTro,item_pickup,c3ddd683
+59,76561198026214582,knife,107358,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,107358,False,Connan,item_pickup,c3ddd683
+42,76561198124241179,knife,107358,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,107358,False,Talevor,item_pickup,c3ddd683
+59,76561198178993731,knife,107358,False,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,107358,False,Siraissi,item_pickup,c3ddd683
+520,76561198051880621,knife,107358,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,107358,False,Cujura,item_pickup,c3ddd683
+42,76561198421514418,knife,107358,False,rodrigaoobrabo,item_pickup,c3ddd683
+61,76561198421514418,hkp2000,107358,False,rodrigaoobrabo,item_pickup,c3ddd683
+59,76561198397576589,knife,107358,False,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,107358,False,AVARA KÉRABA,item_pickup,c3ddd683
+49,76561198340888446,c4,107358,False,MonsTro,item_pickup,c3ddd683
+48,76561198100001022,incgrenade,107471,False,Luiz,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,107601,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,107613,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,107619,False,【﻿ＰＫ】,item_pickup,c3ddd683
+49,76561198178993731,c4,107621,False,Siraissi,item_pickup,c3ddd683
+36,76561198397576589,p250,107703,False,AVARA KÉRABA,item_pickup,c3ddd683
+60,76561198421514418,m4a1,107799,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,107825,False,rodrigaoobrabo,item_pickup,c3ddd683
+16,76561198124241179,m4a1,107841,False,Talevor,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,107861,False,Erick,item_pickup,c3ddd683
+48,76561198000238678,incgrenade,107897,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,107915,False,Erick,item_pickup,c3ddd683
+55,76561198421514418,defuser,107951,False,rodrigaoobrabo,item_pickup,c3ddd683
+17,76561198026214582,mac10,107977,False,Connan,item_pickup,c3ddd683
+30,76561198340888446,tec9,107997,False,MonsTro,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,108117,False,Talevor,item_pickup,c3ddd683
+55,76561198124241179,defuser,108123,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,108181,False,Talevor,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,108373,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,108387,False,Cujura,item_pickup,c3ddd683
+17,76561198178993731,mac10,108551,False,Siraissi,item_pickup,c3ddd683
+45,76561198026214582,smokegrenade,108701,True,Connan,item_pickup,c3ddd683
+17,76561198340888446,mac10,109837,False,MonsTro,item_pickup,c3ddd683
+16,76561198051880621,m4a1,109877,False,Cujura,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,111893,False,rodrigaoobrabo,item_pickup,c3ddd683
+59,76561198026214582,knife,112129,False,Connan,item_pickup,c3ddd683
+4,76561198026214582,glock,112129,False,Connan,item_pickup,c3ddd683
+59,76561198178993731,knife,112129,False,Siraissi,item_pickup,c3ddd683
+4,76561198178993731,glock,112129,False,Siraissi,item_pickup,c3ddd683
+42,76561198124241179,knife,112129,False,Talevor,item_pickup,c3ddd683
+61,76561198124241179,hkp2000,112129,False,Talevor,item_pickup,c3ddd683
+59,76561198397576589,knife,112129,False,AVARA KÉRABA,item_pickup,c3ddd683
+4,76561198397576589,glock,112129,False,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198000238678,knife,112129,False,Erick,item_pickup,c3ddd683
+61,76561198000238678,hkp2000,112129,False,Erick,item_pickup,c3ddd683
+42,76561197996437459,knife,112129,False,【﻿ＰＫ】,item_pickup,c3ddd683
+61,76561197996437459,hkp2000,112129,False,【﻿ＰＫ】,item_pickup,c3ddd683
+520,76561198051880621,knife,112129,False,Cujura,item_pickup,c3ddd683
+4,76561198051880621,glock,112129,False,Cujura,item_pickup,c3ddd683
+59,76561198340888446,knife,112129,False,MonsTro,item_pickup,c3ddd683
+4,76561198340888446,glock,112129,False,MonsTro,item_pickup,c3ddd683
+49,76561198026214582,c4,112129,False,Connan,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,112225,False,Luiz,item_pickup,c3ddd683
+48,76561198100001022,incgrenade,112245,False,Luiz,item_pickup,c3ddd683
+16,76561197996437459,m4a1,112257,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,112275,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561198100001022,flashbang,112277,False,Luiz,item_pickup,c3ddd683
+48,76561198421514418,incgrenade,112309,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,112329,False,MonsTro,item_pickup,c3ddd683
+7,76561198340888446,ak47,112329,False,MonsTro,item_pickup,c3ddd683
+44,76561198421514418,hegrenade,112331,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198421514418,flashbang,112345,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,112361,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,112373,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,112381,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,112389,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,112405,False,AVARA KÉRABA,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,112409,False,Cujura,item_pickup,c3ddd683
+46,76561198340888446,molotov,112425,False,MonsTro,item_pickup,c3ddd683
+7,76561198051880621,ak47,112435,False,Cujura,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,112435,False,MonsTro,item_pickup,c3ddd683
+7,76561198397576589,ak47,112445,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198340888446,flashbang,112447,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,112459,False,MonsTro,item_pickup,c3ddd683
+46,76561198397576589,molotov,112469,False,AVARA KÉRABA,item_pickup,c3ddd683
+46,76561198051880621,molotov,112481,False,Cujura,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,112483,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,112483,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,112483,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,112483,False,Cujura,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,112495,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,112503,False,AVARA KÉRABA,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,112531,False,Talevor,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,112569,False,Talevor,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,112575,False,Siraissi,item_pickup,c3ddd683
+43,76561198124241179,flashbang,112579,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,112589,False,Talevor,item_pickup,c3ddd683
+48,76561198124241179,incgrenade,112601,False,Talevor,item_pickup,c3ddd683
+7,76561198178993731,ak47,112605,False,Siraissi,item_pickup,c3ddd683
+7,76561198026214582,ak47,112633,False,Connan,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,112647,False,Siraissi,item_pickup,c3ddd683
+46,76561198178993731,molotov,112661,False,Siraissi,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,112675,False,Connan,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,112679,False,Siraissi,item_pickup,c3ddd683
+43,76561198178993731,flashbang,112689,False,Siraissi,item_pickup,c3ddd683
+55,76561198124241179,defuser,112875,False,Talevor,item_pickup,c3ddd683
+16,76561198000238678,m4a1,112881,False,Erick,item_pickup,c3ddd683
+31,76561198421514418,taser,113053,False,rodrigaoobrabo,item_pickup,c3ddd683
+9,76561198000238678,awp,113079,False,Erick,item_pickup,c3ddd683
+3,76561198100001022,fiveseven,113081,False,Luiz,item_pickup,c3ddd683
+55,76561197996437459,defuser,113149,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561198000238678,vesthelm,113161,False,Erick,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,113231,False,Erick,item_pickup,c3ddd683
+64,76561197996437459,deagle,113243,False,【﻿ＰＫ】,item_pickup,c3ddd683
+48,76561198000238678,incgrenade,113251,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,113269,False,Erick,item_pickup,c3ddd683
+16,76561198124241179,m4a1,113435,False,Talevor,item_pickup,c3ddd683
+60,76561198124241179,m4a1,113441,False,Talevor,item_pickup,c3ddd683
+16,76561198124241179,m4a1,113727,False,Talevor,item_pickup,c3ddd683
+46,76561198340888446,molotov,115873,False,MonsTro,item_pickup,c3ddd683
+9,76561198397576589,awp,116227,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198178993731,flashbang,116769,False,Siraissi,item_pickup,c3ddd683
+59,76561198421514418,knife,119129,False,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198421514418,glock,119129,False,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198178993731,knife,119129,False,Siraissi,item_pickup,c3ddd683
+61,76561198178993731,hkp2000,119129,False,Siraissi,item_pickup,c3ddd683
+59,76561197996437459,knife,119129,False,【﻿ＰＫ】,item_pickup,c3ddd683
+4,76561197996437459,glock,119129,False,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561198340888446,knife,119129,False,MonsTro,item_pickup,c3ddd683
+32,76561198340888446,hkp2000,119129,False,MonsTro,item_pickup,c3ddd683
+42,76561198026214582,knife,119129,False,Connan,item_pickup,c3ddd683
+61,76561198026214582,hkp2000,119129,False,Connan,item_pickup,c3ddd683
+42,76561198397576589,knife,119129,False,AVARA KÉRABA,item_pickup,c3ddd683
+61,76561198397576589,hkp2000,119129,False,AVARA KÉRABA,item_pickup,c3ddd683
+59,76561198000238678,knife,119129,False,Erick,item_pickup,c3ddd683
+4,76561198000238678,glock,119129,False,Erick,item_pickup,c3ddd683
+59,76561198124241179,knife,119129,False,Talevor,item_pickup,c3ddd683
+4,76561198124241179,glock,119129,False,Talevor,item_pickup,c3ddd683
+59,76561198100001022,knife,119129,False,Luiz,item_pickup,c3ddd683
+4,76561198100001022,glock,119129,False,Luiz,item_pickup,c3ddd683
+520,76561198051880621,knife,119129,False,Cujura,item_pickup,c3ddd683
+61,76561198051880621,hkp2000,119129,False,Cujura,item_pickup,c3ddd683
+49,76561198124241179,c4,119129,False,Talevor,item_pickup,c3ddd683
+50,76561198340888446,vest,119361,False,MonsTro,item_pickup,c3ddd683
+50,76561198100001022,vest,119389,False,Luiz,item_pickup,c3ddd683
+50,76561198421514418,vest,119421,False,rodrigaoobrabo,item_pickup,c3ddd683
+50,76561198178993731,vest,119589,False,Siraissi,item_pickup,c3ddd683
+3,76561198026214582,fiveseven,119647,False,Connan,item_pickup,c3ddd683
+2,76561198397576589,elite,119655,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198026214582,hegrenade,119713,False,Connan,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,119775,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,119789,False,AVARA KÉRABA,item_pickup,c3ddd683
+50,76561198051880621,vest,119827,False,Cujura,item_pickup,c3ddd683
+36,76561198124241179,p250,119835,False,Talevor,item_pickup,c3ddd683
+50,76561198000238678,vest,119905,False,Erick,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,120117,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,120147,False,Talevor,item_pickup,c3ddd683
+30,76561197996437459,tec9,120241,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,120347,False,【﻿ＰＫ】,item_pickup,c3ddd683
+49,76561198124241179,c4,120475,False,Talevor,item_pickup,c3ddd683
+59,76561198000238678,knife,125013,False,Erick,item_pickup,c3ddd683
+4,76561198000238678,glock,125013,False,Erick,item_pickup,c3ddd683
+59,76561198421514418,knife,125013,False,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198421514418,glock,125013,False,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198178993731,knife,125013,False,Siraissi,item_pickup,c3ddd683
+61,76561198178993731,hkp2000,125013,False,Siraissi,item_pickup,c3ddd683
+59,76561198100001022,knife,125013,False,Luiz,item_pickup,c3ddd683
+4,76561198100001022,glock,125013,False,Luiz,item_pickup,c3ddd683
+59,76561198124241179,knife,125013,False,Talevor,item_pickup,c3ddd683
+4,76561198124241179,glock,125013,False,Talevor,item_pickup,c3ddd683
+520,76561198051880621,knife,125013,False,Cujura,item_pickup,c3ddd683
+61,76561198051880621,hkp2000,125013,False,Cujura,item_pickup,c3ddd683
+59,76561197996437459,knife,125013,False,【﻿ＰＫ】,item_pickup,c3ddd683
+4,76561197996437459,glock,125013,False,【﻿ＰＫ】,item_pickup,c3ddd683
+49,76561197996437459,c4,125013,False,【﻿ＰＫ】,item_pickup,c3ddd683
+64,76561197996437459,deagle,125179,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,125201,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,125265,False,MonsTro,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,125341,False,Siraissi,item_pickup,c3ddd683
+34,76561198340888446,mp9,125379,False,MonsTro,item_pickup,c3ddd683
+48,76561198340888446,incgrenade,125437,False,MonsTro,item_pickup,c3ddd683
+44,76561198340888446,hegrenade,125449,False,MonsTro,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,125459,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,125471,False,MonsTro,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,125623,False,AVARA KÉRABA,item_pickup,c3ddd683
+33,76561198178993731,mp7,125635,False,Siraissi,item_pickup,c3ddd683
+55,76561198397576589,defuser,125637,False,AVARA KÉRABA,item_pickup,c3ddd683
+48,76561198178993731,incgrenade,125677,False,Siraissi,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,125693,False,Siraissi,item_pickup,c3ddd683
+34,76561198397576589,mp9,125693,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,125709,False,Siraissi,item_pickup,c3ddd683
+48,76561198397576589,incgrenade,125717,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,125735,False,AVARA KÉRABA,item_pickup,c3ddd683
+63,76561198421514418,p250,125747,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,125755,False,AVARA KÉRABA,item_pickup,c3ddd683
+34,76561198026214582,mp9,125895,False,Connan,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,125967,False,Cujura,item_pickup,c3ddd683
+34,76561198051880621,mp9,126051,False,Cujura,item_pickup,c3ddd683
+1,76561198100001022,deagle,126085,False,Luiz,item_pickup,c3ddd683
+43,76561198000238678,flashbang,126089,False,Erick,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,126099,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,126099,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,126099,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,126099,False,Cujura,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,126191,False,Connan,item_pickup,c3ddd683
+55,76561198026214582,defuser,126221,False,Connan,item_pickup,c3ddd683
+33,76561198124241179,mp7,128313,False,Talevor,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,128333,False,Talevor,item_pickup,c3ddd683
+44,76561198026214582,hegrenade,128529,False,Connan,item_pickup,c3ddd683
+4,76561198340888446,glock,130527,False,MonsTro,item_pickup,c3ddd683
+32,76561198340888446,hkp2000,130633,False,MonsTro,item_pickup,c3ddd683
+59,76561198100001022,knife,130967,False,Luiz,item_pickup,c3ddd683
+4,76561198100001022,glock,130967,False,Luiz,item_pickup,c3ddd683
+59,76561197996437459,knife,130967,False,【﻿ＰＫ】,item_pickup,c3ddd683
+4,76561197996437459,glock,130967,False,【﻿ＰＫ】,item_pickup,c3ddd683
+59,76561198124241179,knife,130967,False,Talevor,item_pickup,c3ddd683
+4,76561198124241179,glock,130967,False,Talevor,item_pickup,c3ddd683
+59,76561198000238678,knife,130967,False,Erick,item_pickup,c3ddd683
+4,76561198000238678,glock,130967,False,Erick,item_pickup,c3ddd683
+520,76561198051880621,knife,130967,False,Cujura,item_pickup,c3ddd683
+61,76561198051880621,hkp2000,130967,False,Cujura,item_pickup,c3ddd683
+42,76561198178993731,knife,130967,False,Siraissi,item_pickup,c3ddd683
+61,76561198178993731,hkp2000,130967,False,Siraissi,item_pickup,c3ddd683
+42,76561198026214582,knife,130967,False,Connan,item_pickup,c3ddd683
+61,76561198026214582,hkp2000,130967,False,Connan,item_pickup,c3ddd683
+59,76561198421514418,knife,130967,False,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198421514418,glock,130967,False,rodrigaoobrabo,item_pickup,c3ddd683
+49,76561198100001022,c4,130967,False,Luiz,item_pickup,c3ddd683
+48,76561198340888446,incgrenade,131223,False,MonsTro,item_pickup,c3ddd683
+60,76561198026214582,m4a1,131233,False,Connan,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,131241,False,MonsTro,item_pickup,c3ddd683
+44,76561198340888446,hegrenade,131255,False,MonsTro,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,131275,False,Connan,item_pickup,c3ddd683
+55,76561198026214582,defuser,131303,False,Connan,item_pickup,c3ddd683
+50,76561198421514418,vest,131345,False,rodrigaoobrabo,item_pickup,c3ddd683
+7,76561198000238678,ak47,131347,False,Erick,item_pickup,c3ddd683
+51,76561198000238678,vesthelm,131367,False,Erick,item_pickup,c3ddd683
+55,76561198340888446,defuser,131371,False,MonsTro,item_pickup,c3ddd683
+13,76561197996437459,galilar,131393,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198100001022,ak47,131405,False,Luiz,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,131413,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,131423,False,Siraissi,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,131425,False,Luiz,item_pickup,c3ddd683
+7,76561198421514418,ak47,131437,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,131443,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,131455,False,Luiz,item_pickup,c3ddd683
+60,76561198178993731,m4a1,131465,False,Siraissi,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,131467,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198100001022,flashbang,131467,False,Luiz,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,131471,False,Erick,item_pickup,c3ddd683
+46,76561198100001022,molotov,131483,False,Luiz,item_pickup,c3ddd683
+48,76561198397576589,incgrenade,131485,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198000238678,flashbang,131491,False,Erick,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,131497,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561198000238678,flashbang,131501,False,Erick,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,131503,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,131509,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561198397576589,flashbang,131515,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561197996437459,flashbang,131515,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,131517,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198178993731,flashbang,131525,False,Siraissi,item_pickup,c3ddd683
+46,76561198000238678,molotov,131527,False,Erick,item_pickup,c3ddd683
+43,76561197996437459,flashbang,131527,False,【﻿ＰＫ】,item_pickup,c3ddd683
+46,76561198421514418,molotov,131529,False,rodrigaoobrabo,item_pickup,c3ddd683
+44,76561198421514418,hegrenade,131543,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198421514418,flashbang,131559,False,rodrigaoobrabo,item_pickup,c3ddd683
+7,76561198124241179,ak47,131659,False,Talevor,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,131691,False,Cujura,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,131751,False,Talevor,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,131795,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,131807,False,Talevor,item_pickup,c3ddd683
+44,76561198124241179,hegrenade,131829,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,131885,False,Talevor,item_pickup,c3ddd683
+34,76561198051880621,mp9,131969,False,Cujura,item_pickup,c3ddd683
+48,76561198051880621,incgrenade,132023,False,Cujura,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,132027,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,132027,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,132027,False,Cujura,item_pickup,c3ddd683
+49,76561198421514418,c4,135091,False,rodrigaoobrabo,item_pickup,c3ddd683
+46,76561198124241179,molotov,136603,False,Talevor,item_pickup,c3ddd683
+49,76561198124241179,c4,137047,False,Talevor,item_pickup,c3ddd683
+43,76561198340888446,flashbang,137745,True,MonsTro,item_pickup,c3ddd683
+42,76561198026214582,knife,138355,False,Connan,item_pickup,c3ddd683
+61,76561198026214582,hkp2000,138355,False,Connan,item_pickup,c3ddd683
+59,76561198421514418,knife,138355,False,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198421514418,glock,138355,False,rodrigaoobrabo,item_pickup,c3ddd683
+59,76561197996437459,knife,138355,False,【﻿ＰＫ】,item_pickup,c3ddd683
+4,76561197996437459,glock,138355,False,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561198397576589,knife,138355,False,AVARA KÉRABA,item_pickup,c3ddd683
+61,76561198397576589,hkp2000,138355,False,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198178993731,knife,138355,False,Siraissi,item_pickup,c3ddd683
+61,76561198178993731,hkp2000,138355,False,Siraissi,item_pickup,c3ddd683
+520,76561198051880621,knife,138355,False,Cujura,item_pickup,c3ddd683
+61,76561198051880621,hkp2000,138355,False,Cujura,item_pickup,c3ddd683
+42,76561198340888446,knife,138355,False,MonsTro,item_pickup,c3ddd683
+32,76561198340888446,hkp2000,138355,False,MonsTro,item_pickup,c3ddd683
+49,76561198000238678,c4,138355,False,Erick,item_pickup,c3ddd683
+7,76561198421514418,ak47,138513,False,rodrigaoobrabo,item_pickup,c3ddd683
+13,76561197996437459,galilar,138537,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198000238678,ak47,138537,False,Erick,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,138549,False,Luiz,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,138555,False,【﻿ＰＫ】,item_pickup,c3ddd683
+46,76561198100001022,molotov,138571,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,138591,False,Luiz,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,138603,False,Erick,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,138615,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198100001022,flashbang,138619,False,Luiz,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,138637,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,138649,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,138657,False,rodrigaoobrabo,item_pickup,c3ddd683
+46,76561198000238678,molotov,138661,False,Erick,item_pickup,c3ddd683
+46,76561198421514418,molotov,138665,False,rodrigaoobrabo,item_pickup,c3ddd683
+44,76561198421514418,hegrenade,138673,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198421514418,flashbang,138681,False,rodrigaoobrabo,item_pickup,c3ddd683
+34,76561198397576589,mp9,138689,False,AVARA KÉRABA,item_pickup,c3ddd683
+34,76561198340888446,mp9,138729,False,MonsTro,item_pickup,c3ddd683
+7,76561198421514418,ak47,138747,False,rodrigaoobrabo,item_pickup,c3ddd683
+34,76561198051880621,mp9,138757,False,Cujura,item_pickup,c3ddd683
+34,76561198026214582,mp9,138785,False,Connan,item_pickup,c3ddd683
+7,76561198124241179,ak47,138787,False,Talevor,item_pickup,c3ddd683
+34,76561198340888446,mp9,138849,False,MonsTro,item_pickup,c3ddd683
+50,76561198397576589,vest,138859,False,AVARA KÉRABA,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,138867,False,Cujura,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,138969,False,Talevor,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,139009,False,Siraissi,item_pickup,c3ddd683
+34,76561198178993731,mp9,139027,False,Siraissi,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,139043,False,Connan,item_pickup,c3ddd683
+55,76561198026214582,defuser,139073,False,Connan,item_pickup,c3ddd683
+43,76561198051880621,flashbang,139103,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,139113,False,Cujura,item_pickup,c3ddd683
+44,76561198124241179,hegrenade,139121,False,Talevor,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,139131,False,MonsTro,item_pickup,c3ddd683
+34,76561198340888446,mp9,139177,False,MonsTro,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,139247,False,MonsTro,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,139271,False,AVARA KÉRABA,item_pickup,c3ddd683
+55,76561198397576589,defuser,139283,False,AVARA KÉRABA,item_pickup,c3ddd683
+49,76561198124241179,c4,139309,False,Talevor,item_pickup,c3ddd683
+60,76561198397576589,m4a1,139383,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,139435,False,AVARA KÉRABA,item_pickup,c3ddd683
+7,76561197996437459,ak47,141349,True,【﻿ＰＫ】,item_pickup,c3ddd683
+49,76561198124241179,c4,141697,False,Talevor,item_pickup,c3ddd683
+520,76561198051880621,knife,142969,False,Cujura,item_pickup,c3ddd683
+61,76561198051880621,hkp2000,142969,False,Cujura,item_pickup,c3ddd683
+42,76561198178993731,knife,142969,False,Siraissi,item_pickup,c3ddd683
+61,76561198178993731,hkp2000,142969,False,Siraissi,item_pickup,c3ddd683
+59,76561198421514418,knife,142969,False,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198421514418,glock,142969,False,rodrigaoobrabo,item_pickup,c3ddd683
+59,76561198100001022,knife,142969,False,Luiz,item_pickup,c3ddd683
+4,76561198100001022,glock,142969,False,Luiz,item_pickup,c3ddd683
+42,76561198026214582,knife,142969,False,Connan,item_pickup,c3ddd683
+61,76561198026214582,hkp2000,142969,False,Connan,item_pickup,c3ddd683
+42,76561198397576589,knife,142969,False,AVARA KÉRABA,item_pickup,c3ddd683
+61,76561198397576589,hkp2000,142969,False,AVARA KÉRABA,item_pickup,c3ddd683
+42,76561198340888446,knife,142969,False,MonsTro,item_pickup,c3ddd683
+32,76561198340888446,hkp2000,142969,False,MonsTro,item_pickup,c3ddd683
+49,76561198421514418,c4,142969,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,143042,False,Erick,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,143082,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,143088,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,143100,False,【﻿ＰＫ】,item_pickup,c3ddd683
+49,76561197996437459,c4,143196,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,143254,False,rodrigaoobrabo,item_pickup,c3ddd683
+7,76561198421514418,ak47,143254,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,143302,False,rodrigaoobrabo,item_pickup,c3ddd683
+46,76561198421514418,molotov,143310,False,rodrigaoobrabo,item_pickup,c3ddd683
+44,76561198421514418,hegrenade,143318,False,rodrigaoobrabo,item_pickup,c3ddd683
+7,76561198100001022,ak47,143352,False,Luiz,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,143366,False,Luiz,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,143394,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,143408,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,143420,False,Luiz,item_pickup,c3ddd683
+46,76561198100001022,molotov,143434,False,Luiz,item_pickup,c3ddd683
+43,76561198124241179,flashbang,143534,False,Talevor,item_pickup,c3ddd683
+49,76561198000238678,c4,143820,False,Erick,item_pickup,c3ddd683
+31,76561198026214582,taser,143886,False,Connan,item_pickup,c3ddd683
+31,76561198397576589,taser,144008,False,AVARA KÉRABA,item_pickup,c3ddd683
+49,76561198421514418,c4,144074,False,rodrigaoobrabo,item_pickup,c3ddd683
+36,76561198340888446,p250,144098,False,MonsTro,item_pickup,c3ddd683
+3,76561198178993731,fiveseven,144192,False,Siraissi,item_pickup,c3ddd683
+49,76561198124241179,c4,144216,False,Talevor,item_pickup,c3ddd683
+49,76561197996437459,c4,144370,False,【﻿ＰＫ】,item_pickup,c3ddd683
+49,76561197996437459,c4,145008,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198397576589,ak47,145382,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,145388,False,AVARA KÉRABA,item_pickup,c3ddd683
+7,76561198026214582,ak47,145650,False,Connan,item_pickup,c3ddd683
+46,76561198026214582,molotov,145658,False,Connan,item_pickup,c3ddd683
+49,76561198100001022,c4,145700,False,Luiz,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,148088,True,Cujura,item_pickup,c3ddd683
+7,76561198051880621,ak47,148090,True,Cujura,item_pickup,c3ddd683
+49,76561198124241179,c4,148364,False,Talevor,item_pickup,c3ddd683
+7,76561198397576589,ak47,149290,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,149292,False,AVARA KÉRABA,item_pickup,c3ddd683
+59,76561198421514418,knife,149592,False,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198421514418,glock,149592,False,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198178993731,knife,149592,False,Siraissi,item_pickup,c3ddd683
+61,76561198178993731,hkp2000,149592,False,Siraissi,item_pickup,c3ddd683
+520,76561198051880621,knife,149592,False,Cujura,item_pickup,c3ddd683
+61,76561198051880621,hkp2000,149592,False,Cujura,item_pickup,c3ddd683
+59,76561198124241179,knife,149592,False,Talevor,item_pickup,c3ddd683
+4,76561198124241179,glock,149592,False,Talevor,item_pickup,c3ddd683
+42,76561198340888446,knife,149592,False,MonsTro,item_pickup,c3ddd683
+32,76561198340888446,hkp2000,149592,False,MonsTro,item_pickup,c3ddd683
+59,76561198100001022,knife,149592,False,Luiz,item_pickup,c3ddd683
+4,76561198100001022,glock,149592,False,Luiz,item_pickup,c3ddd683
+59,76561197996437459,knife,149592,False,【﻿ＰＫ】,item_pickup,c3ddd683
+4,76561197996437459,glock,149592,False,【﻿ＰＫ】,item_pickup,c3ddd683
+59,76561198000238678,knife,149592,False,Erick,item_pickup,c3ddd683
+4,76561198000238678,glock,149592,False,Erick,item_pickup,c3ddd683
+49,76561198124241179,c4,149592,False,Talevor,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,149901,False,Siraissi,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,149905,False,MonsTro,item_pickup,c3ddd683
+60,76561198178993731,m4a1,149939,False,Siraissi,item_pickup,c3ddd683
+48,76561198178993731,incgrenade,149975,False,Siraissi,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,149989,False,Siraissi,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,150001,False,Siraissi,item_pickup,c3ddd683
+43,76561198178993731,flashbang,150011,False,Siraissi,item_pickup,c3ddd683
+7,76561198000238678,ak47,150015,False,Erick,item_pickup,c3ddd683
+51,76561198000238678,vesthelm,150033,False,Erick,item_pickup,c3ddd683
+16,76561198340888446,m4a1,150067,False,MonsTro,item_pickup,c3ddd683
+7,76561197996437459,ak47,150093,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,150111,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,150149,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,150169,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,150181,False,Erick,item_pickup,c3ddd683
+46,76561198000238678,molotov,150193,False,Erick,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,150193,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,150205,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,150211,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,150221,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198124241179,ak47,150225,False,Talevor,item_pickup,c3ddd683
+7,76561198421514418,ak47,150269,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,150299,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,150317,False,MonsTro,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,150333,False,Cujura,item_pickup,c3ddd683
+7,76561198124241179,ak47,150345,False,Talevor,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,150389,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198340888446,flashbang,150401,False,MonsTro,item_pickup,c3ddd683
+55,76561198397576589,defuser,150403,False,AVARA KÉRABA,item_pickup,c3ddd683
+60,76561198051880621,m4a1,150529,False,Cujura,item_pickup,c3ddd683
+7,76561198100001022,ak47,150561,False,Luiz,item_pickup,c3ddd683
+48,76561198397576589,incgrenade,150597,False,AVARA KÉRABA,item_pickup,c3ddd683
+48,76561198051880621,incgrenade,150605,False,Cujura,item_pickup,c3ddd683
+7,76561198124241179,ak47,150609,False,Talevor,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,150611,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,150611,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,150611,False,Cujura,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,150617,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,150629,False,AVARA KÉRABA,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,150645,False,Talevor,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,150691,False,Connan,item_pickup,c3ddd683
+55,76561198026214582,defuser,150715,False,Connan,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,150725,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,150727,False,Luiz,item_pickup,c3ddd683
+43,76561198124241179,flashbang,150749,False,Talevor,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,150753,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,150765,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,150779,False,Luiz,item_pickup,c3ddd683
+43,76561198421514418,flashbang,150783,False,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198421514418,flashbang,150791,False,rodrigaoobrabo,item_pickup,c3ddd683
+46,76561198100001022,molotov,150793,False,Luiz,item_pickup,c3ddd683
+55,76561198178993731,defuser,150841,False,Siraissi,item_pickup,c3ddd683
+49,76561198124241179,c4,150955,False,Talevor,item_pickup,c3ddd683
+49,76561197996437459,c4,151281,False,【﻿ＰＫ】,item_pickup,c3ddd683
+49,76561198124241179,c4,153463,False,Talevor,item_pickup,c3ddd683
+7,76561198178993731,ak47,158463,True,Siraissi,item_pickup,c3ddd683
+520,76561198051880621,knife,158501,False,Cujura,item_pickup,c3ddd683
+61,76561198051880621,hkp2000,158501,False,Cujura,item_pickup,c3ddd683
+59,76561198421514418,knife,158501,False,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198421514418,glock,158501,False,rodrigaoobrabo,item_pickup,c3ddd683
+59,76561198100001022,knife,158501,False,Luiz,item_pickup,c3ddd683
+4,76561198100001022,glock,158501,False,Luiz,item_pickup,c3ddd683
+42,76561198026214582,knife,158501,False,Connan,item_pickup,c3ddd683
+61,76561198026214582,hkp2000,158501,False,Connan,item_pickup,c3ddd683
+42,76561198340888446,knife,158501,False,MonsTro,item_pickup,c3ddd683
+32,76561198340888446,hkp2000,158501,False,MonsTro,item_pickup,c3ddd683
+59,76561198000238678,knife,158501,False,Erick,item_pickup,c3ddd683
+4,76561198000238678,glock,158501,False,Erick,item_pickup,c3ddd683
+59,76561197996437459,knife,158501,False,【﻿ＰＫ】,item_pickup,c3ddd683
+4,76561197996437459,glock,158501,False,【﻿ＰＫ】,item_pickup,c3ddd683
+59,76561198124241179,knife,158501,False,Talevor,item_pickup,c3ddd683
+4,76561198124241179,glock,158501,False,Talevor,item_pickup,c3ddd683
+49,76561197996437459,c4,158501,False,【﻿ＰＫ】,item_pickup,c3ddd683
+7,76561198051880621,ak47,158621,False,Cujura,item_pickup,c3ddd683
+60,76561198026214582,m4a1,158711,False,Connan,item_pickup,c3ddd683
+48,76561198178993731,incgrenade,158749,False,Siraissi,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,158769,False,Connan,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,158769,False,Siraissi,item_pickup,c3ddd683
+43,76561198178993731,flashbang,158781,False,Siraissi,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,158793,False,Cujura,item_pickup,c3ddd683
+31,76561198421514418,taser,158841,False,rodrigaoobrabo,item_pickup,c3ddd683
+30,76561198000238678,tec9,158931,False,Erick,item_pickup,c3ddd683
+55,76561198026214582,defuser,158937,False,Connan,item_pickup,c3ddd683
+1,76561198100001022,deagle,159027,False,Luiz,item_pickup,c3ddd683
+50,76561198100001022,vest,159061,False,Luiz,item_pickup,c3ddd683
+44,76561198100001022,hegrenade,159105,False,Luiz,item_pickup,c3ddd683
+60,76561198178993731,m4a1,159123,False,Siraissi,item_pickup,c3ddd683
+16,76561198340888446,m4a1,159135,False,MonsTro,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,159237,False,MonsTro,item_pickup,c3ddd683
+48,76561198397576589,incgrenade,159257,False,AVARA KÉRABA,item_pickup,c3ddd683
+48,76561198051880621,incgrenade,159259,False,Cujura,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,159265,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,159265,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,159265,False,Cujura,item_pickup,c3ddd683
+48,76561198340888446,incgrenade,159273,False,MonsTro,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,159279,False,MonsTro,item_pickup,c3ddd683
+44,76561198340888446,hegrenade,159289,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,159301,False,MonsTro,item_pickup,c3ddd683
+55,76561198340888446,defuser,159387,False,MonsTro,item_pickup,c3ddd683
+16,76561198421514418,m4a1,162203,True,rodrigaoobrabo,item_pickup,c3ddd683
+43,76561198421514418,flashbang,162211,True,rodrigaoobrabo,item_pickup,c3ddd683
+16,76561198100001022,m4a1,162965,True,Luiz,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,165121,False,Cujura,item_pickup,c3ddd683
+59,76561198000238678,knife,165373,False,Erick,item_pickup,c3ddd683
+4,76561198000238678,glock,165373,False,Erick,item_pickup,c3ddd683
+59,76561197996437459,knife,165373,False,【﻿ＰＫ】,item_pickup,c3ddd683
+4,76561197996437459,glock,165373,False,【﻿ＰＫ】,item_pickup,c3ddd683
+59,76561198100001022,knife,165373,False,Luiz,item_pickup,c3ddd683
+4,76561198100001022,glock,165373,False,Luiz,item_pickup,c3ddd683
+42,76561198340888446,knife,165373,False,MonsTro,item_pickup,c3ddd683
+32,76561198340888446,hkp2000,165373,False,MonsTro,item_pickup,c3ddd683
+59,76561198124241179,knife,165373,False,Talevor,item_pickup,c3ddd683
+4,76561198124241179,glock,165373,False,Talevor,item_pickup,c3ddd683
+59,76561198421514418,knife,165373,False,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198421514418,glock,165373,False,rodrigaoobrabo,item_pickup,c3ddd683
+49,76561198100001022,c4,165373,False,Luiz,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,165419,False,rodrigaoobrabo,item_pickup,c3ddd683
+7,76561198421514418,ak47,165419,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,165479,False,rodrigaoobrabo,item_pickup,c3ddd683
+7,76561198100001022,ak47,165485,False,Luiz,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,165501,False,Luiz,item_pickup,c3ddd683
+7,76561198124241179,ak47,165503,False,Talevor,item_pickup,c3ddd683
+43,76561198421514418,flashbang,165505,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,165521,False,Luiz,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,165525,False,Talevor,item_pickup,c3ddd683
+43,76561198100001022,flashbang,165539,False,Luiz,item_pickup,c3ddd683
+43,76561198100001022,flashbang,165553,False,Luiz,item_pickup,c3ddd683
+43,76561198421514418,flashbang,165561,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,165565,False,Talevor,item_pickup,c3ddd683
+31,76561198026214582,taser,165565,False,Connan,item_pickup,c3ddd683
+43,76561198124241179,flashbang,165575,False,Talevor,item_pickup,c3ddd683
+50,76561198178993731,vest,165617,False,Siraissi,item_pickup,c3ddd683
+7,76561198000238678,ak47,165623,False,Erick,item_pickup,c3ddd683
+51,76561198000238678,vesthelm,165639,False,Erick,item_pickup,c3ddd683
+7,76561197996437459,ak47,165649,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,165663,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,165723,False,Erick,item_pickup,c3ddd683
+43,76561198000238678,flashbang,165747,False,Erick,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,165793,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,165805,False,【﻿ＰＫ】,item_pickup,c3ddd683
+48,76561198051880621,incgrenade,165849,False,Cujura,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,165901,False,MonsTro,item_pickup,c3ddd683
+48,76561198340888446,incgrenade,165933,False,MonsTro,item_pickup,c3ddd683
+43,76561198124241179,flashbang,165939,False,Talevor,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,165943,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,165957,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,165967,False,MonsTro,item_pickup,c3ddd683
+60,76561198340888446,m4a1,165977,False,MonsTro,item_pickup,c3ddd683
+60,76561198178993731,m4a1,166033,False,Siraissi,item_pickup,c3ddd683
+48,76561198397576589,incgrenade,166129,False,AVARA KÉRABA,item_pickup,c3ddd683
+31,76561198178993731,taser,166129,False,Siraissi,item_pickup,c3ddd683
+55,76561198340888446,defuser,166131,False,MonsTro,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,166145,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,166157,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198051880621,flashbang,166157,False,Cujura,item_pickup,c3ddd683
+43,76561198397576589,flashbang,166165,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198026214582,smokegrenade,166175,False,Connan,item_pickup,c3ddd683
+43,76561198051880621,flashbang,166221,False,Cujura,item_pickup,c3ddd683
+44,76561198026214582,hegrenade,166287,False,Connan,item_pickup,c3ddd683
+43,76561198026214582,flashbang,166303,False,Connan,item_pickup,c3ddd683
+43,76561198000238678,flashbang,167641,False,Erick,item_pickup,c3ddd683
+43,76561198100001022,flashbang,167719,False,Luiz,item_pickup,c3ddd683
+43,76561198421514418,flashbang,169457,True,rodrigaoobrabo,item_pickup,c3ddd683
+7,76561198026214582,ak47,171329,False,Connan,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,171533,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198026214582,flashbang,171581,False,Connan,item_pickup,c3ddd683
+31,76561198397576589,taser,171583,False,AVARA KÉRABA,item_pickup,c3ddd683
+59,76561197996437459,knife,171835,False,【﻿ＰＫ】,item_pickup,c3ddd683
+4,76561197996437459,glock,171835,False,【﻿ＰＫ】,item_pickup,c3ddd683
+42,76561198178993731,knife,171835,False,Siraissi,item_pickup,c3ddd683
+61,76561198178993731,hkp2000,171835,False,Siraissi,item_pickup,c3ddd683
+520,76561198051880621,knife,171835,False,Cujura,item_pickup,c3ddd683
+61,76561198051880621,hkp2000,171835,False,Cujura,item_pickup,c3ddd683
+59,76561198000238678,knife,171835,False,Erick,item_pickup,c3ddd683
+4,76561198000238678,glock,171835,False,Erick,item_pickup,c3ddd683
+59,76561198100001022,knife,171835,False,Luiz,item_pickup,c3ddd683
+4,76561198100001022,glock,171835,False,Luiz,item_pickup,c3ddd683
+42,76561198340888446,knife,171835,False,MonsTro,item_pickup,c3ddd683
+32,76561198340888446,hkp2000,171835,False,MonsTro,item_pickup,c3ddd683
+59,76561198124241179,knife,171835,False,Talevor,item_pickup,c3ddd683
+4,76561198124241179,glock,171835,False,Talevor,item_pickup,c3ddd683
+59,76561198421514418,knife,171835,False,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198421514418,glock,171835,False,rodrigaoobrabo,item_pickup,c3ddd683
+49,76561198000238678,c4,171835,False,Erick,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,172005,False,rodrigaoobrabo,item_pickup,c3ddd683
+7,76561198421514418,ak47,172005,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198340888446,vesthelm,172035,False,MonsTro,item_pickup,c3ddd683
+50,76561198397576589,vest,172039,False,AVARA KÉRABA,item_pickup,c3ddd683
+31,76561198026214582,taser,172047,False,Connan,item_pickup,c3ddd683
+48,76561198340888446,incgrenade,172067,False,MonsTro,item_pickup,c3ddd683
+48,76561198397576589,incgrenade,172073,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,172075,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,172077,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,172087,False,MonsTro,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,172089,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,172099,False,AVARA KÉRABA,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,172099,False,Cujura,item_pickup,c3ddd683
+43,76561198340888446,flashbang,172101,False,MonsTro,item_pickup,c3ddd683
+43,76561198421514418,flashbang,172103,False,rodrigaoobrabo,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,172227,False,Siraissi,item_pickup,c3ddd683
+60,76561198178993731,m4a1,172257,False,Siraissi,item_pickup,c3ddd683
+7,76561198000238678,ak47,172269,False,Erick,item_pickup,c3ddd683
+51,76561198000238678,vesthelm,172289,False,Erick,item_pickup,c3ddd683
+48,76561198178993731,incgrenade,172293,False,Siraissi,item_pickup,c3ddd683
+9,76561198340888446,awp,172295,False,MonsTro,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,172307,False,Siraissi,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,172319,False,Siraissi,item_pickup,c3ddd683
+43,76561198178993731,flashbang,172333,False,Siraissi,item_pickup,c3ddd683
+16,76561198051880621,m4a1,172349,False,Cujura,item_pickup,c3ddd683
+55,76561198178993731,defuser,172373,False,Siraissi,item_pickup,c3ddd683
+36,76561198340888446,p250,172391,False,MonsTro,item_pickup,c3ddd683
+48,76561198051880621,incgrenade,172415,False,Cujura,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,172419,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,172419,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,172419,False,Cujura,item_pickup,c3ddd683
+13,76561197996437459,galilar,172663,False,【﻿ＰＫ】,item_pickup,c3ddd683
+17,76561198124241179,mac10,172671,False,Talevor,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,172681,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,172763,False,Talevor,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,172767,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,172779,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,172785,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,172819,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,172833,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,172841,False,Talevor,item_pickup,c3ddd683
+46,76561198124241179,molotov,172861,False,Talevor,item_pickup,c3ddd683
+7,76561198100001022,ak47,172881,False,Luiz,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,172897,False,Luiz,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,172945,False,Luiz,item_pickup,c3ddd683
+44,76561198100001022,hegrenade,172973,False,Luiz,item_pickup,c3ddd683
+49,76561198421514418,c4,173063,False,rodrigaoobrabo,item_pickup,c3ddd683
+49,76561197996437459,c4,173175,False,【﻿ＰＫ】,item_pickup,c3ddd683
+31,76561198421514418,taser,175069,True,rodrigaoobrabo,item_pickup,c3ddd683
+7,76561198124241179,ak47,175351,False,Talevor,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,176391,True,Erick,item_pickup,c3ddd683
+49,76561198124241179,c4,177955,True,Talevor,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,179035,False,AVARA KÉRABA,item_pickup,c3ddd683
+7,76561198051880621,ak47,179067,True,Cujura,item_pickup,c3ddd683
+59,76561198421514418,knife,179211,False,rodrigaoobrabo,item_pickup,c3ddd683
+4,76561198421514418,glock,179211,False,rodrigaoobrabo,item_pickup,c3ddd683
+59,76561197996437459,knife,179211,False,【﻿ＰＫ】,item_pickup,c3ddd683
+4,76561197996437459,glock,179211,False,【﻿ＰＫ】,item_pickup,c3ddd683
+59,76561198000238678,knife,179211,False,Erick,item_pickup,c3ddd683
+4,76561198000238678,glock,179211,False,Erick,item_pickup,c3ddd683
+59,76561198100001022,knife,179211,False,Luiz,item_pickup,c3ddd683
+4,76561198100001022,glock,179211,False,Luiz,item_pickup,c3ddd683
+59,76561198124241179,knife,179211,False,Talevor,item_pickup,c3ddd683
+4,76561198124241179,glock,179211,False,Talevor,item_pickup,c3ddd683
+42,76561198026214582,knife,179211,False,Connan,item_pickup,c3ddd683
+61,76561198026214582,hkp2000,179211,False,Connan,item_pickup,c3ddd683
+49,76561198421514418,c4,179211,False,rodrigaoobrabo,item_pickup,c3ddd683
+48,76561198178993731,incgrenade,179300,False,Siraissi,item_pickup,c3ddd683
+43,76561198178993731,flashbang,179316,False,Siraissi,item_pickup,c3ddd683
+51,76561198421514418,vesthelm,179324,False,rodrigaoobrabo,item_pickup,c3ddd683
+31,76561198178993731,taser,179370,False,Siraissi,item_pickup,c3ddd683
+48,76561198051880621,incgrenade,179400,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,179416,False,Cujura,item_pickup,c3ddd683
+19,76561198421514418,p90,179446,False,rodrigaoobrabo,item_pickup,c3ddd683
+60,76561198026214582,m4a1,179466,False,Connan,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,179518,False,Connan,item_pickup,c3ddd683
+43,76561198340888446,flashbang,179526,False,MonsTro,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,179534,False,Cujura,item_pickup,c3ddd683
+31,76561198026214582,taser,179570,False,Connan,item_pickup,c3ddd683
+43,76561198421514418,flashbang,179588,False,rodrigaoobrabo,item_pickup,c3ddd683
+55,76561198026214582,defuser,179592,False,Connan,item_pickup,c3ddd683
+43,76561198421514418,flashbang,179598,False,rodrigaoobrabo,item_pickup,c3ddd683
+17,76561198000238678,mac10,179656,False,Erick,item_pickup,c3ddd683
+48,76561198340888446,incgrenade,179680,False,MonsTro,item_pickup,c3ddd683
+45,76561198340888446,smokegrenade,179694,False,MonsTro,item_pickup,c3ddd683
+51,76561198000238678,vesthelm,179710,False,Erick,item_pickup,c3ddd683
+44,76561198340888446,hegrenade,179730,False,MonsTro,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,179794,False,Erick,item_pickup,c3ddd683
+48,76561198397576589,incgrenade,179818,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,179836,False,AVARA KÉRABA,item_pickup,c3ddd683
+46,76561198000238678,molotov,179836,False,Erick,item_pickup,c3ddd683
+43,76561198397576589,flashbang,179852,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198000238678,flashbang,179858,False,Erick,item_pickup,c3ddd683
+13,76561198100001022,galilar,179860,False,Luiz,item_pickup,c3ddd683
+19,76561198124241179,p90,179870,False,Talevor,item_pickup,c3ddd683
+43,76561198000238678,flashbang,179870,False,Erick,item_pickup,c3ddd683
+51,76561198100001022,vesthelm,179884,False,Luiz,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,179898,False,Talevor,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,179928,False,Talevor,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,179934,False,Luiz,item_pickup,c3ddd683
+13,76561197996437459,galilar,179940,False,【﻿ＰＫ】,item_pickup,c3ddd683
+51,76561197996437459,vesthelm,179964,False,【﻿ＰＫ】,item_pickup,c3ddd683
+3,76561198397576589,fiveseven,179984,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198124241179,flashbang,179994,False,Talevor,item_pickup,c3ddd683
+43,76561198100001022,flashbang,180000,False,Luiz,item_pickup,c3ddd683
+43,76561198124241179,flashbang,180008,False,Talevor,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,180082,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,180094,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,180106,False,【﻿ＰＫ】,item_pickup,c3ddd683
+31,76561198421514418,taser,181604,False,rodrigaoobrabo,item_pickup,c3ddd683
+45,76561198000238678,smokegrenade,183300,False,Erick,item_pickup,c3ddd683
+7,76561198000238678,ak47,183350,True,Erick,item_pickup,c3ddd683
+60,76561198100001022,m4a1,183412,False,Luiz,item_pickup,c3ddd683
+17,76561197996437459,mac10,184472,False,【﻿ＰＫ】,item_pickup,c3ddd683
+13,76561197996437459,galilar,184608,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561198421514418,flashbang,185126,False,rodrigaoobrabo,item_pickup,c3ddd683
+42,76561198397576589,knife,185218,False,AVARA KÉRABA,item_pickup,c3ddd683
+61,76561198397576589,hkp2000,185218,False,AVARA KÉRABA,item_pickup,c3ddd683
+520,76561198051880621,knife,185218,False,Cujura,item_pickup,c3ddd683
+61,76561198051880621,hkp2000,185218,False,Cujura,item_pickup,c3ddd683
+59,76561198124241179,knife,185218,False,Talevor,item_pickup,c3ddd683
+4,76561198124241179,glock,185218,False,Talevor,item_pickup,c3ddd683
+42,76561198178993731,knife,185218,False,Siraissi,item_pickup,c3ddd683
+61,76561198178993731,hkp2000,185218,False,Siraissi,item_pickup,c3ddd683
+42,76561198026214582,knife,185218,False,Connan,item_pickup,c3ddd683
+61,76561198026214582,hkp2000,185218,False,Connan,item_pickup,c3ddd683
+49,76561198124241179,c4,185218,False,Talevor,item_pickup,c3ddd683
+45,76561197996437459,smokegrenade,185325,False,【﻿ＰＫ】,item_pickup,c3ddd683
+45,76561198100001022,smokegrenade,185329,False,Luiz,item_pickup,c3ddd683
+44,76561197996437459,hegrenade,185329,False,【﻿ＰＫ】,item_pickup,c3ddd683
+43,76561197996437459,flashbang,185341,False,【﻿ＰＫ】,item_pickup,c3ddd683
+44,76561198100001022,hegrenade,185345,False,Luiz,item_pickup,c3ddd683
+51,76561198051880621,vesthelm,185357,False,Cujura,item_pickup,c3ddd683
+43,76561198100001022,flashbang,185361,False,Luiz,item_pickup,c3ddd683
+46,76561198100001022,molotov,185377,False,Luiz,item_pickup,c3ddd683
+16,76561198051880621,m4a1,185395,False,Cujura,item_pickup,c3ddd683
+51,76561198397576589,vesthelm,185397,False,AVARA KÉRABA,item_pickup,c3ddd683
+55,76561198397576589,defuser,185413,False,AVARA KÉRABA,item_pickup,c3ddd683
+60,76561198397576589,m4a1,185447,False,AVARA KÉRABA,item_pickup,c3ddd683
+48,76561198051880621,incgrenade,185463,False,Cujura,item_pickup,c3ddd683
+44,76561198051880621,hegrenade,185469,False,Cujura,item_pickup,c3ddd683
+43,76561198051880621,flashbang,185469,False,Cujura,item_pickup,c3ddd683
+45,76561198051880621,smokegrenade,185469,False,Cujura,item_pickup,c3ddd683
+48,76561198397576589,incgrenade,185475,False,AVARA KÉRABA,item_pickup,c3ddd683
+45,76561198397576589,smokegrenade,185487,False,AVARA KÉRABA,item_pickup,c3ddd683
+44,76561198397576589,hegrenade,185499,False,AVARA KÉRABA,item_pickup,c3ddd683
+43,76561198397576589,flashbang,185509,False,AVARA KÉRABA,item_pickup,c3ddd683
+51,76561198178993731,vesthelm,185587,False,Siraissi,item_pickup,c3ddd683
+43,76561198000238678,flashbang,185591,False,Erick,item_pickup,c3ddd683
+60,76561198178993731,m4a1,185617,False,Siraissi,item_pickup,c3ddd683
+48,76561198178993731,incgrenade,185653,False,Siraissi,item_pickup,c3ddd683
+45,76561198178993731,smokegrenade,185667,False,Siraissi,item_pickup,c3ddd683
+44,76561198178993731,hegrenade,185679,False,Siraissi,item_pickup,c3ddd683
+43,76561198178993731,flashbang,185689,False,Siraissi,item_pickup,c3ddd683
+45,76561198421514418,smokegrenade,185745,False,rodrigaoobrabo,item_pickup,c3ddd683
+46,76561198421514418,molotov,185753,False,rodrigaoobrabo,item_pickup,c3ddd683
+60,76561198026214582,m4a1,185779,False,Connan,item_pickup,c3ddd683
+48,76561198340888446,incgrenade,185797,False,MonsTro,item_pickup,c3ddd683
+51,76561198026214582,vesthelm,185821,False,Connan,item_pickup,c3ddd683
+43,76561198340888446,flashbang,185831,False,MonsTro,item_pickup,c3ddd683
+43,76561198340888446,flashbang,185843,False,MonsTro,item_pickup,c3ddd683
+7,76561198000238678,ak47,185847,False,Erick,item_pickup,c3ddd683
+55,76561198026214582,defuser,185867,False,Connan,item_pickup,c3ddd683
+7,76561198124241179,ak47,185869,False,Talevor,item_pickup,c3ddd683
+51,76561198124241179,vesthelm,185937,False,Talevor,item_pickup,c3ddd683
+55,76561198340888446,defuser,185967,False,MonsTro,item_pickup,c3ddd683
+45,76561198124241179,smokegrenade,185975,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,185985,False,Talevor,item_pickup,c3ddd683
+43,76561198124241179,flashbang,185993,False,Talevor,item_pickup,c3ddd683
+46,76561198124241179,molotov,186031,False,Talevor,item_pickup,c3ddd683
+7,76561197996437459,ak47,186073,False,【﻿ＰＫ】,item_pickup,c3ddd683
+49,76561197996437459,c4,186561,False,【﻿ＰＫ】,item_pickup,c3ddd683
