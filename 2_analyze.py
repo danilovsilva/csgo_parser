@@ -3,7 +3,7 @@ import os
 
 
 class csgo_analyzer():
-    LOCAL_CSV_PATH = "c:/csgo_app/csv"
+    LOCAL_CSV_PATH = "c:/projects/csgo_parser/csv"
 
     def __init__(self):
         print()
@@ -61,6 +61,17 @@ class csgo_analyzer():
             .query("tick > "+tick_round_start)\
             .groupby('attacker_steamid')["attacker_steamid"]\
             .count().reset_index(name="kills")
+
+        df_kill_teammates = self.dataframes["player_death"]\
+            .query("attacker_side == player_side")\
+            .query("tick > "+tick_round_start)\
+            .groupby('attacker_steamid')["attacker_steamid"]\
+            .count().reset_index(name="kill_teammates")\
+            .rename(columns={'attacker_steamid': 'attacker_steamid_teammates'})
+
+        df_kills = pd.merge(df_kills, df_kill_teammates, how='left', left_on=[
+            'attacker_steamid'], right_on=['attacker_steamid_teammates'])\
+                .drop(columns=['attacker_steamid_teammates'])
 
         df_deaths = self.dataframes["player_death"]\
             .query("tick > "+tick_round_start)\
