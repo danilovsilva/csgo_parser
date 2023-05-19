@@ -1,11 +1,15 @@
 import pandas as pd
 import os
+import requests
+from retry import retry
+from datetime import datetime
 
 
 class csgo_analyzer():
     LOCAL_CSV_PATH = "c:/csgo_app/csv"
 
-    def __init__(self):
+    def __init__(self, match_id):
+        self.match_id = match_id
         print()
 
     def read_csv_to_pd(self):
@@ -24,11 +28,6 @@ class csgo_analyzer():
                 self.dataframes[nome_dataframe] = pd.read_csv(caminho_arquivo)
 
     def func_kda(self):
-
-        # fazer contagem após o tick do round_announce_match_start
-
-        # fazer logica para remover a kill+1 quando matar miguxos
-        # usar o starting side do parse_players
 
         # Tick of the match start (After the warmup)
         tick_round_start = str(self.dataframes["round_announce_match_start"][
@@ -59,6 +58,7 @@ class csgo_analyzer():
         df_kills = self.dataframes["player_death"]\
             .query("attacker_steamid != 0")\
             .query("tick > "+tick_round_start)\
+            .query("attacker_side != "+tick_round_start)\
             .groupby('attacker_steamid')["attacker_steamid"]\
             .count().reset_index(name="kills")
 
@@ -81,12 +81,62 @@ class csgo_analyzer():
         df_kda = pd.merge(df_kda, df_assist, how='left', left_on=[
                           'user_id'], right_on=['assister'])\
             .drop(columns=['assister'])
+
+        self.export_to_json(df_kda)
+
         print()
+
+    def get_match_map(self):
+        match_map = str(self.dataframes["parse_header"]["map_name"][0])
+        return match_map
+
+    def get_score_ct(self):
+        pass
+
+    def get_score_t(self):
+        pass
+
+    @retry(Exception, tries=3, delay=1)
+    def export_to_json(self, df):
+        # Converting the df to a JSON
+        json_data = df.to_json(orient='records', indent=4)
+
+        # Get the map of the match
+        match_map = self.get_match_map()
+
+        # Get the score of CT
+        score_ct = self.get_score_ct()
+
+        # Get the score of T
+        score_t = self.get_score_t()
+
+        # Creating the header of the object
+        data_dict = {
+            "match_id": self.match_id,
+            "score_ct": score_ct,
+            "score_tr": score_t,
+            "match_map": match_map,
+            "match_date": datetime.today().strftime('%Y-%m-%d'),
+            "data": json_data
+        }
+
+        # Set the REST endpoint URL
+        url = 'https://xaxanalytics/kda'
+
+        # Set the request headers (if needed)
+        headers = {'Content-Type': 'application/json'}
+
+        # Make the HTTP POST request
+        response = requests.post(url, data=data_dict, headers=headers)
+
+        # Check the response status code
+        if response.status_code == 200:
+            print('Data sent successfully to the REST endpoint.')
+            return
+        else:
+            print('Failed to send data to the REST endpoint. Status code:',
+                  response.status_code)
 
     def main(self):
         self.read_csv_to_pd()
         self.func_kda()
-
-
-a = csgo_analyzer()
-a.main()

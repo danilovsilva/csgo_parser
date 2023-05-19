@@ -1,7 +1,7 @@
-player_name,player_steamid,haskit,event_name,tick,round
-【﻿ＰＫ】,76561197996437459,False,bomb_begindefuse,11229,0
-Luiz,76561198100001022,False,bomb_begindefuse,44634,0
-rodrigaoobrabo,76561198421514418,True,bomb_begindefuse,69358,0
-MonsTro,76561198340888446,False,bomb_begindefuse,130053,0
-AVARA KÉRABA,76561198397576589,True,bomb_begindefuse,130193,0
-AVARA KÉRABA,76561198397576589,True,bomb_begindefuse,171061,0
+player_name,player_steamid,haskit,event_name,tick,match_id
+【﻿ＰＫ】,76561197996437459,False,bomb_begindefuse,11229,c3ddd683
+Luiz,76561198100001022,False,bomb_begindefuse,44634,c3ddd683
+rodrigaoobrabo,76561198421514418,True,bomb_begindefuse,69358,c3ddd683
+MonsTro,76561198340888446,False,bomb_begindefuse,130053,c3ddd683
+AVARA KÉRABA,76561198397576589,True,bomb_begindefuse,130193,c3ddd683
+AVARA KÉRABA,76561198397576589,True,bomb_begindefuse,171061,c3ddd683

@@ -1,12 +1,12 @@
-player_name,player_steamid,index,event_name,tick,round,address,name,networkid
-rodrigaoobrabo,76561198421514418,10,player_connect_full,491,0,,,
-Connan,76561198026214582,2,player_connect_full,627,0,,,
-【﻿ＰＫ】,76561197996437459,7,player_connect_full,631,0,,,
-Erick,76561198000238678,8,player_connect_full,655,0,,,
-MonsTro,76561198340888446,11,player_connect_full,767,0,,,
-Luiz,76561198100001022,4,player_connect_full,893,0,,,
-AVARA KÉRABA,76561198397576589,12,player_connect_full,979,0,,,
-Cujura,76561198051880621,3,player_connect_full,1003,0,,,
-Talevor,76561198124241179,1,player_connect_full,1049,0,,,
-None,0,5,player_connect,1555,0,,Siraissi,STEAM_1:1:109364001
-Siraissi,76561198178993731,5,player_connect_full,2443,0,,,
+player_name,player_steamid,index,event_name,tick,address,name,networkid,match_id
+rodrigaoobrabo,76561198421514418,10,player_connect_full,491,,,,c3ddd683
+Connan,76561198026214582,2,player_connect_full,627,,,,c3ddd683
+【﻿ＰＫ】,76561197996437459,7,player_connect_full,631,,,,c3ddd683
+Erick,76561198000238678,8,player_connect_full,655,,,,c3ddd683
+MonsTro,76561198340888446,11,player_connect_full,767,,,,c3ddd683
+Luiz,76561198100001022,4,player_connect_full,893,,,,c3ddd683
+AVARA KÉRABA,76561198397576589,12,player_connect_full,979,,,,c3ddd683
+Cujura,76561198051880621,3,player_connect_full,1003,,,,c3ddd683
+Talevor,76561198124241179,1,player_connect_full,1049,,,,c3ddd683
+None,0,5,player_connect,1555,,Siraissi,STEAM_1:1:109364001,c3ddd683
+Siraissi,76561198178993731,5,player_connect_full,2443,,,,c3ddd683
