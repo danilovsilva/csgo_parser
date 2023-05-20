@@ -8,8 +8,9 @@ from datetime import datetime
 class csgo_analyzer():
     LOCAL_CSV_PATH = "c:/projects/csgo_parser/csv"
 
-    def __init__(self, match_id):
+    def __init__(self, match_id, match_date):
         self.match_id = match_id
+        self.match_date = match_date
         print()
 
     def read_csv_to_pd(self):
@@ -34,11 +35,10 @@ class csgo_analyzer():
             "tick"][0])
 
         # How many teamate kills
-        df_player_sides = self.dataframes["parse_players"]\
-            [["steamid", "starting_side"]]\
+        df_player_sides = self.dataframes["parse_players"][["steamid", "starting_side"]]\
             .rename(columns={"steamid": "steamid_sides"})
 
-        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"], 
+        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"],
                                                    df_player_sides,
                                                    how='left',
                                                    left_on=[
@@ -46,7 +46,7 @@ class csgo_analyzer():
                                                    right_on=['steamid_sides'])\
             .drop(columns=['steamid_sides'])\
             .rename(columns={"starting_side": "attacker_side"})
-        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"], 
+        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"],
                                                    df_player_sides,
                                                    how='left',
                                                    left_on=['player_steamid'],
@@ -71,15 +71,15 @@ class csgo_analyzer():
             .groupby('attacker_steamid')["attacker_steamid"]\
             .count().reset_index(name="kill_teammates")\
             .rename(columns={'attacker_steamid': 'attacker_steamid_teammates'})
-                    
+
         df_kills = pd.merge(df_kills, df_kill_teammates, how='left', left_on=[
             'attacker_steamid'], right_on=['attacker_steamid_teammates'])\
-                .drop(columns=['attacker_steamid_teammates'])\
-                .fillna(0)
-               
-        df_kills["true_kills"] = (df_kills["kills"] \
+            .drop(columns=['attacker_steamid_teammates'])\
+            .fillna(0)
+
+        df_kills["true_kills"] = (df_kills["kills"]
                                   - 2 * df_kills["kill_teammates"])
-                        
+
         df_kills = df_kills.drop(columns=['kills'])\
             .rename(columns={"true_kills": "kills"})
 
@@ -93,7 +93,7 @@ class csgo_analyzer():
             .query("assister !=0")\
             .groupby('assister')["assister"]\
             .count().reset_index(name="assist")
-        
+
         df_kda = pd.merge(df_kda, df_kills, how='left', left_on=[
                           'steamid'], right_on=['attacker_steamid'])\
             .drop(columns=['attacker_steamid'])
@@ -127,8 +127,8 @@ class csgo_analyzer():
                   2: "t"})
         df_score_first = df_score_first.rename(
             columns={"winner": "winner_starting_side"})
-        print()
-        return df_score_first
+
+        return df_score_first.to_json(orient='records', indent=4)
 
     def get_score_second_half(self):
         """
@@ -147,7 +147,8 @@ class csgo_analyzer():
         df_score_second = df_score_second.rename(
             columns={"winner": "winner_starting_side"})
         print()
-        return df_score_second
+
+        return df_score_second.to_json(orient='records', indent=4)
 
     @retry(Exception, tries=3, delay=1)
     def export_to_json(self, df):
@@ -158,18 +159,18 @@ class csgo_analyzer():
         match_map = self.get_match_map()
 
         # Get the score of CT
-        score_ct = self.get_score_first_half()
+        score_first_half = self.get_score_first_half()
 
         # Get the score of T
-        score_t = self.get_score_second_half()
+        score_second_half = self.get_score_second_half()
 
         # Creating the header of the object
         data_dict = {
             "match_id": self.match_id,
-            "score_ct": score_ct,
-            "score_tr": score_t,
+            "score_first_half": score_first_half,
+            "score_second_half": score_second_half,
             "match_map": match_map,
-            "match_date": datetime.today().strftime('%Y-%m-%d'),
+            "match_date": self.match_id,
             "data": json_data
         }
 

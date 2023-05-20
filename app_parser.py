@@ -8,7 +8,7 @@ class csgo_parser():
 
     def __init__(self, demo_path):
         self.parser = DemoParser(demo_path)
-        self.demo_date = self.get_date_from_demofile(demo_path)
+        self.match_date = self.get_date_from_demofile(demo_path)
         self.parse_players = self.parser.parse_players()
         self.parse_header = self.parser.parse_header()
         self.match_id = self.calculate_file_hash(demo_path)
@@ -108,7 +108,7 @@ class csgo_parser():
 
     def main(self):
         self.load_all_events()
-        analyze = csgo_analyzer(self.match_id)
+        analyze = csgo_analyzer(self.match_id, self.match_date)
         analyze.main()
 
 
