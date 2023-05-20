@@ -1,11 +1,10 @@
 from demoparser import DemoParser
 import pandas as pd
 from app_analyze import csgo_analyzer
-# import boto3
 
 
 class csgo_parser():
-    LOCAL_CSV_PATH = "c:/csgo_app/csv"
+    LOCAL_CSV_PATH = "c:/projects/csgo_parser/csv"
 
     def __init__(self, demo_path):
         self.parser = DemoParser(demo_path)
@@ -21,24 +20,21 @@ class csgo_parser():
     def calculate_file_hash(self, file_path):
         import zlib
 
-        # Criar um objeto de hash
+        # Create a hash object
         hash_object = zlib.crc32(b'')
 
-        # Ler o conteúdo do arquivo em blocos
+        # Read the file content
         with open(file_path, 'rb') as file:
             for block in iter(lambda: file.read(4096), b''):
-                # Atualizar o objeto de hash com cada bloco de dados
+                # Update the hash object with each block
                 hash_object = zlib.crc32(block, hash_object)
 
-        # Obter o valor de hash como uma representação
+        # Get the hash value as a representation
         # hexadecimal de até 8 caracteres
-
         file_hash = format(hash_object & 0xFFFFFFFF, '08x')
 
         return file_hash
 
-# !!!!Adicionar retry nottations
-# !!!! remove the X variable after the retry notations
     def save_to_csv(self, df, file_name):
         """
             Save the dataframe data into a csv on the path set
@@ -116,5 +112,7 @@ class csgo_parser():
         analyze.main()
 
 
-a = csgo_parser("c:/csgo_app/data/003604372192294338675_1473557262.dem")
+a = csgo_parser(
+    "c:/projects/csgo_parser/data/003604372192294338675_1473557262.dem")
 a.main()
+print()

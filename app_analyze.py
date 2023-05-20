@@ -6,7 +6,7 @@ from datetime import datetime
 
 
 class csgo_analyzer():
-    LOCAL_CSV_PATH = "c:/csgo_app/csv"
+    LOCAL_CSV_PATH = "c:/projects/csgo_parser/csv"
 
     def __init__(self, match_id):
         self.match_id = match_id
@@ -90,11 +90,42 @@ class csgo_analyzer():
         match_map = str(self.dataframes["parse_header"]["map_name"][0])
         return match_map
 
-    def get_score_ct(self):
-        pass
+    def get_score_first_half(self):
+        """
+        Return how many round each side won in the first half.
+        3 = CT
+        2 = T
+        """
+        df_score_first = self.dataframes["round_end"][["winner"]].iloc[:15]
+        df_score_first = df_score_first\
+            .groupby("winner")["winner"]\
+            .count().reset_index(name="rounds")
+        df_score_first["winner"] = df_score_first["winner"]\
+            .map({3: "ct",
+                  2: "t"})
+        df_score_first = df_score_first.rename(
+            columns={"winner": "winner_starting_side"})
+        print()
+        return df_score_first
 
-    def get_score_t(self):
-        pass
+    def get_score_second_half(self):
+        """
+        Return how many round each side won in the second half
+        NOTE! For the second half we will switch sides.
+        If CT wins a round, we will put it as a T because we count
+        By the 'Starting side' of the team.
+        """
+        df_score_second = self.dataframes["round_end"][["winner"]].iloc[15:]
+        df_score_second = df_score_second\
+            .groupby("winner")["winner"]\
+            .count().reset_index(name="rounds")
+        df_score_second["winner"] = df_score_second["winner"]\
+            .map({2: "ct",
+                  3: "t"})
+        df_score_second = df_score_second.rename(
+            columns={"winner": "winner_starting_side"})
+        print()
+        return df_score_second
 
     @retry(Exception, tries=3, delay=1)
     def export_to_json(self, df):
@@ -105,10 +136,10 @@ class csgo_analyzer():
         match_map = self.get_match_map()
 
         # Get the score of CT
-        score_ct = self.get_score_ct()
+        score_ct = self.get_score_first_half()
 
         # Get the score of T
-        score_t = self.get_score_t()
+        score_t = self.get_score_second_half()
 
         # Creating the header of the object
         data_dict = {
@@ -127,16 +158,17 @@ class csgo_analyzer():
         headers = {'Content-Type': 'application/json'}
 
         # Make the HTTP POST request
-        response = requests.post(url, data=data_dict, headers=headers)
+        # response = requests.post(url, data=data_dict, headers=headers)
 
         # Check the response status code
-        if response.status_code == 200:
-            print('Data sent successfully to the REST endpoint.')
-            return
-        else:
-            print('Failed to send data to the REST endpoint. Status code:',
-                  response.status_code)
+        # if response.status_code == 200:
+        #     print('Data sent successfully to the REST endpoint.')
+        #     return
+        # else:
+        #     print('Failed to send data to the REST endpoint. Status code:',
+        #           response.status_code)
 
     def main(self):
         self.read_csv_to_pd()
         self.func_kda()
+        print()
