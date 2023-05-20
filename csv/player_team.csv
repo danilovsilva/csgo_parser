@@ -1,23 +1,23 @@
-player_steamid,oldteam,silent,player_name,disconnect,tick,team,isbot,autoteam,event_name,round
-76561198421514418,0,False,rodrigaoobrabo,False,491,3,False,False,player_team,0
-0,3,False,Wesley,True,493,0,True,False,player_team,0
-76561198026214582,0,False,Connan,False,627,2,False,False,player_team,0
-0,2,False,Wesley,True,629,0,True,False,player_team,0
-76561197996437459,0,False,【﻿ＰＫ】,False,631,3,False,False,player_team,0
-76561198000238678,0,False,Erick,False,655,3,False,False,player_team,0
-76561198340888446,0,False,MonsTro,False,767,2,False,False,player_team,0
-76561198100001022,0,False,Luiz,False,893,3,False,False,player_team,0
-76561198051880621,0,False,Cujura,False,1003,2,False,False,player_team,0
-76561198397576589,0,False,AVARA KÉRABA,False,1009,2,False,False,player_team,0
-76561198124241179,0,False,Talevor,False,1049,3,False,False,player_team,0
-76561198178993731,0,False,Siraissi,False,2443,2,False,False,player_team,0
-76561198124241179,3,True,Talevor,False,119129,2,False,False,player_team,0
-76561198026214582,2,True,Connan,False,119129,3,False,False,player_team,0
-76561198051880621,2,True,Cujura,False,119129,3,False,False,player_team,0
-76561198100001022,3,True,Luiz,False,119129,2,False,False,player_team,0
-76561198178993731,2,True,Siraissi,False,119129,3,False,False,player_team,0
-76561197996437459,3,True,【﻿ＰＫ】,False,119129,2,False,False,player_team,0
-76561198000238678,3,True,Erick,False,119129,2,False,False,player_team,0
-76561198421514418,3,True,rodrigaoobrabo,False,119129,2,False,False,player_team,0
-76561198340888446,2,True,MonsTro,False,119129,3,False,False,player_team,0
-76561198397576589,2,True,AVARA KÉRABA,False,119129,3,False,False,player_team,0
+player_steamid,oldteam,silent,player_name,disconnect,tick,team,isbot,event_name,match_id
+76561198421514418,0,False,rodrigaoobrabo,False,491,3,False,player_team,c3ddd683
+0,3,False,Wesley,True,493,0,True,player_team,c3ddd683
+76561198026214582,0,False,Connan,False,627,2,False,player_team,c3ddd683
+0,2,False,Wesley,True,629,0,True,player_team,c3ddd683
+76561197996437459,0,False,【﻿ＰＫ】,False,631,3,False,player_team,c3ddd683
+76561198000238678,0,False,Erick,False,655,3,False,player_team,c3ddd683
+76561198340888446,0,False,MonsTro,False,767,2,False,player_team,c3ddd683
+76561198100001022,0,False,Luiz,False,893,3,False,player_team,c3ddd683
+76561198051880621,0,False,Cujura,False,1003,2,False,player_team,c3ddd683
+76561198397576589,0,False,AVARA KÉRABA,False,1009,2,False,player_team,c3ddd683
+76561198124241179,0,False,Talevor,False,1049,3,False,player_team,c3ddd683
+76561198178993731,0,False,Siraissi,False,2443,2,False,player_team,c3ddd683
+76561198124241179,3,True,Talevor,False,119129,2,False,player_team,c3ddd683
+76561198026214582,2,True,Connan,False,119129,3,False,player_team,c3ddd683
+76561198051880621,2,True,Cujura,False,119129,3,False,player_team,c3ddd683
+76561198100001022,3,True,Luiz,False,119129,2,False,player_team,c3ddd683
+76561198178993731,2,True,Siraissi,False,119129,3,False,player_team,c3ddd683
+76561197996437459,3,True,【﻿ＰＫ】,False,119129,2,False,player_team,c3ddd683
+76561198000238678,3,True,Erick,False,119129,2,False,player_team,c3ddd683
+76561198421514418,3,True,rodrigaoobrabo,False,119129,2,False,player_team,c3ddd683
+76561198340888446,2,True,MonsTro,False,119129,3,False,player_team,c3ddd683
+76561198397576589,2,True,AVARA KÉRABA,False,119129,3,False,player_team,c3ddd683
