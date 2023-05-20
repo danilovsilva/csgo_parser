@@ -3,7 +3,7 @@ import os
 
 
 class csgo_analyzer():
-    LOCAL_CSV_PATH = "c:/csgo_app/csv"
+    LOCAL_CSV_PATH = "c:/projects/csgo_parser/csv"
 
     def __init__(self):
         print()
@@ -35,17 +35,20 @@ class csgo_analyzer():
             "tick"][0])
 
         # How many teamate kills
-        df_player_sides = self.dataframes["parse_players"][["steamid", "starting_side"]]\
+        df_player_sides = self.dataframes["parse_players"]\
+            [["steamid", "starting_side"]]\
             .rename(columns={"steamid": "steamid_sides"})
 
-        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"], df_player_sides,
+        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"], 
+                                                   df_player_sides,
                                                    how='left',
                                                    left_on=[
                                                        'attacker_steamid'],
                                                    right_on=['steamid_sides'])\
             .drop(columns=['steamid_sides'])\
             .rename(columns={"starting_side": "attacker_side"})
-        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"], df_player_sides,
+        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"], 
+                                                   df_player_sides,
                                                    how='left',
                                                    left_on=['player_steamid'],
                                                    right_on=['steamid_sides'])\
@@ -62,6 +65,24 @@ class csgo_analyzer():
             .groupby('attacker_steamid')["attacker_steamid"]\
             .count().reset_index(name="kills")
 
+        df_kill_teammates = self.dataframes["player_death"]\
+            .query("attacker_side == player_side")\
+            .query("tick > "+tick_round_start)\
+            .groupby('attacker_steamid')["attacker_steamid"]\
+            .count().reset_index(name="kill_teammates")\
+            .rename(columns={'attacker_steamid': 'attacker_steamid_teammates'})
+                    
+        df_kills = pd.merge(df_kills, df_kill_teammates, how='left', left_on=[
+            'attacker_steamid'], right_on=['attacker_steamid_teammates'])\
+                .drop(columns=['attacker_steamid_teammates'])\
+                .fillna(0)
+               
+        df_kills["true_kills"] = (df_kills["kills"] \
+                                  - 2 * df_kills["kill_teammates"])
+                        
+        df_kills = df_kills.drop(columns=['kills'])\
+            .rename(columns={"true_kills": "kills"})
+
         df_deaths = self.dataframes["player_death"]\
             .query("tick > "+tick_round_start)\
             .groupby('player_steamid')["player_steamid"]\
@@ -69,9 +90,10 @@ class csgo_analyzer():
 
         df_assist = self.dataframes["player_death"]\
             .query("tick > "+tick_round_start)\
+            .query("assister !=0")\
             .groupby('assister')["assister"]\
             .count().reset_index(name="assist")
-
+        
         df_kda = pd.merge(df_kda, df_kills, how='left', left_on=[
                           'steamid'], right_on=['attacker_steamid'])\
             .drop(columns=['attacker_steamid'])
