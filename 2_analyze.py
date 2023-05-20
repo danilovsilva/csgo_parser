@@ -67,11 +67,17 @@ class csgo_analyzer():
             .query("tick > "+tick_round_start)\
             .groupby('attacker_steamid')["attacker_steamid"]\
             .count().reset_index(name="kill_teammates")\
-            .rename(columns={'attacker_steamid': 'attacker_steamid_teammates'})
-
+            .rename(columns={'attacker_steamid': 'attacker_steamid_teammates'})\
+                    
         df_kills = pd.merge(df_kills, df_kill_teammates, how='left', left_on=[
             'attacker_steamid'], right_on=['attacker_steamid_teammates'])\
-                .drop(columns=['attacker_steamid_teammates'])
+                .drop(columns=['attacker_steamid_teammates'])\
+                .fillna(0)
+        
+        df_kills["true_kills"] = (df_kills["kills"] - 2* df_kills["kill_teammates"])\
+                        
+        df_kills = df_kills.drop(columns=['kills'])\
+        .rename(columns={"true_kills" : "kills"})
 
         df_deaths = self.dataframes["player_death"]\
             .query("tick > "+tick_round_start)\
@@ -80,8 +86,10 @@ class csgo_analyzer():
 
         df_assist = self.dataframes["player_death"]\
             .query("tick > "+tick_round_start)\
+            .query("assister !=0")\
             .groupby('assister')["assister"]\
-            .count().reset_index(name="assist")
+            .count().reset_index(name="assist")\
+            
 
         df_kda = pd.merge(df_kda, df_kills, how='left', left_on=[
                           'steamid'], right_on=['attacker_steamid'])\
