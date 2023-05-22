@@ -1,6 +1,7 @@
 import pandas as pd
 import os
-import requests
+import numpy as np
+# import requests
 from retry import retry
 from datetime import datetime
 
@@ -38,7 +39,7 @@ class csgo_analyzer():
             [["steamid", "starting_side"]]\
             .rename(columns={"steamid": "steamid_sides"})
 
-        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"], 
+        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"],
                                                    df_player_sides,
                                                    how='left',
                                                    left_on=[
@@ -46,7 +47,7 @@ class csgo_analyzer():
                                                    right_on=['steamid_sides'])\
             .drop(columns=['steamid_sides'])\
             .rename(columns={"starting_side": "attacker_side"})
-        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"], 
+        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"],
                                                    df_player_sides,
                                                    how='left',
                                                    left_on=['player_steamid'],
@@ -71,15 +72,15 @@ class csgo_analyzer():
             .groupby('attacker_steamid')["attacker_steamid"]\
             .count().reset_index(name="kill_teammates")\
             .rename(columns={'attacker_steamid': 'attacker_steamid_teammates'})
-                    
+
         df_kills = pd.merge(df_kills, df_kill_teammates, how='left', left_on=[
             'attacker_steamid'], right_on=['attacker_steamid_teammates'])\
                 .drop(columns=['attacker_steamid_teammates'])\
                 .fillna(0)
-               
+
         df_kills["true_kills"] = (df_kills["kills"] \
                                   - 2 * df_kills["kill_teammates"])
-                        
+
         df_kills = df_kills.drop(columns=['kills'])\
             .rename(columns={"true_kills": "kills"})
 
@@ -93,7 +94,7 @@ class csgo_analyzer():
             .query("assister !=0")\
             .groupby('assister')["assister"]\
             .count().reset_index(name="assist")
-        
+
         df_kda = pd.merge(df_kda, df_kills, how='left', left_on=[
                           'steamid'], right_on=['attacker_steamid'])\
             .drop(columns=['attacker_steamid'])
@@ -149,6 +150,39 @@ class csgo_analyzer():
         print()
         return df_score_second
 
+    def get_total_damage_health(self):
+
+        # Tick of the match start (After the warmup)
+        tick_round_start = str(self.dataframes["round_announce_match_start"][
+            "tick"][0])
+        df_dmg_health = self.dataframes["player_hurt"]
+
+        df_dmg_health["tot_dmg_health"] = np.where(df_dmg_health["dmg_health"]>100,100,df_dmg_health["dmg_health"])
+
+        df_dmg_health = df_dmg_health.query("attacker_steamid != 0")\
+            .query("tick > "+tick_round_start)\
+            .groupby('attacker_steamid')["tot_dmg_health"]\
+            .sum().reset_index(name="tot_dmg_health")
+
+        self.export_to_json(df_dmg_health)
+
+    def get_total_damage_armor(self):
+
+        # Tick of the match start (After the warmup)
+        tick_round_start = str(self.dataframes["round_announce_match_start"][
+            "tick"][0])
+        df_dmg_armor = self.dataframes["player_hurt"]
+
+        df_dmg_armor["tot_dmg_armor"] = np.where(df_dmg_armor["dmg_armor"]>100,100,df_dmg_armor["dmg_armor"])
+
+        df_dmg_armor = df_dmg_armor.query("attacker_steamid != 0")\
+            .query("tick > "+tick_round_start)\
+            .groupby('attacker_steamid')["tot_dmg_armor"]\
+            .sum().reset_index(name="tot_dmg_armor")
+
+        self.export_to_json(df_dmg_armor)
+
+
     @retry(Exception, tries=3, delay=1)
     def export_to_json(self, df):
         # Converting the df to a JSON
@@ -193,4 +227,6 @@ class csgo_analyzer():
     def main(self):
         self.read_csv_to_pd()
         self.func_kda()
+        self.get_total_damage_health()
+        self.get_total_damage_armor()
         print()

@@ -4,7 +4,7 @@ from app_analyze import csgo_analyzer
 
 
 class csgo_parser():
-    LOCAL_CSV_PATH = "c:/projects/csgo_parser/csv"
+    LOCAL_CSV_PATH = "C:\projects\csgo_parser\csv"
 
     def __init__(self, demo_path):
         self.parser = DemoParser(demo_path)
