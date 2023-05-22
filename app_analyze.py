@@ -1,6 +1,7 @@
 import pandas as pd
 import os
-import requests
+import numpy as np
+# import requests
 from retry import retry
 from datetime import datetime
 
@@ -177,6 +178,39 @@ class csgo_analyzer():
         print()
         return df_score_second
 
+    def get_total_damage_health(self):
+
+        # Tick of the match start (After the warmup)
+        tick_round_start = str(self.dataframes["round_announce_match_start"][
+            "tick"][0])
+        df_dmg_health = self.dataframes["player_hurt"]
+
+        df_dmg_health["tot_dmg_health"] = np.where(df_dmg_health["dmg_health"]>100,100,df_dmg_health["dmg_health"])
+
+        df_dmg_health = df_dmg_health.query("attacker_steamid != 0")\
+            .query("tick > "+tick_round_start)\
+            .groupby('attacker_steamid')["tot_dmg_health"]\
+            .sum().reset_index(name="tot_dmg_health")
+
+        self.export_to_json(df_dmg_health)
+
+    def get_total_damage_armor(self):
+
+        # Tick of the match start (After the warmup)
+        tick_round_start = str(self.dataframes["round_announce_match_start"][
+            "tick"][0])
+        df_dmg_armor = self.dataframes["player_hurt"]
+
+        df_dmg_armor["tot_dmg_armor"] = np.where(df_dmg_armor["dmg_armor"]>100,100,df_dmg_armor["dmg_armor"])
+
+        df_dmg_armor = df_dmg_armor.query("attacker_steamid != 0")\
+            .query("tick > "+tick_round_start)\
+            .groupby('attacker_steamid')["tot_dmg_armor"]\
+            .sum().reset_index(name="tot_dmg_armor")
+
+        self.export_to_json(df_dmg_armor)
+
+
     @retry(Exception, tries=3, delay=1)
     def export_to_json(self, df):
         # Converting the df to a JSON
@@ -221,4 +255,6 @@ class csgo_analyzer():
     def main(self):
         self.read_csv_to_pd()
         self.func_kda()
+        self.get_total_damage_health()
+        self.get_total_damage_armor()
         print()
