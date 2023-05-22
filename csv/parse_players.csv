@@ -1,11 +1,11 @@
-user_id,steamid,starting_side,name,crosshair_code,rank_name,rank_id,comp_wins,entity_id,match_id
-6,76561198100001022,T,Luiz,CSGO-hjaYp-pUqRP-j5NY9-uEKp6-X9VeL,Unranked,-1,-1,5,c3ddd683
-14,76561198397576589,CT,AVARA KÉRABA,CSGO-jBmCr-rwBrj-j8Ueh-TwcDp-cVGOP,Unranked,-1,-1,13,c3ddd683
-3,76561198124241179,T,Talevor,CSGO-S9FTf-TUEWJ-m3ByR-9SWUa-YcOUD,Unranked,-1,-1,2,c3ddd683
-17,76561198178993731,CT,Siraissi,CSGO-6QzF9-TMWTW-4fCzG-wRXGt-NZGiJ,Unranked,-1,-1,6,c3ddd683
-4,76561198026214582,CT,Connan,CSGO-8NYpr-onLiz-SDyGe-L8DzV-jA26A,Unranked,-1,-1,3,c3ddd683
-9,76561197996437459,T,【﻿ＰＫ】,CSGO-RaZxB-3eenv-S7fMY-txc25-qhRqJ,Unranked,-1,-1,8,c3ddd683
-5,76561198051880621,CT,Cujura,CSGO-8j6ha-BJcYV-KixQi-bVkQK-PHPYE,Unranked,-1,-1,4,c3ddd683
-10,76561198000238678,T,Erick,CSGO-dhq38-rkhtA-mmMun-wwJLV-RYcNE,Unranked,-1,-1,9,c3ddd683
-13,76561198340888446,CT,MonsTro,CSGO-aTbpw-qAFWh-iMw4Z-BdB5J-thiaB,Unranked,-1,-1,12,c3ddd683
-12,76561198421514418,T,rodrigaoobrabo,CSGO-eFULe-6R3Eo-4wFpi-iXPNS-W4sKG,Unranked,-1,-1,11,c3ddd683
+steamid,rank_id,user_id,entity_id,crosshair_code,starting_side,rank_name,comp_wins,name,match_id
+76561198051880621,-1,5,4,CSGO-8j6ha-BJcYV-KixQi-bVkQK-PHPYE,CT,Unranked,-1,Cujura,c3ddd683
+76561198397576589,-1,14,13,CSGO-jBmCr-rwBrj-j8Ueh-TwcDp-cVGOP,CT,Unranked,-1,AVARA KÉRABA,c3ddd683
+76561198100001022,-1,6,5,CSGO-hjaYp-pUqRP-j5NY9-uEKp6-X9VeL,T,Unranked,-1,Luiz,c3ddd683
+76561198340888446,-1,13,12,CSGO-aTbpw-qAFWh-iMw4Z-BdB5J-thiaB,CT,Unranked,-1,MonsTro,c3ddd683
+76561198124241179,-1,3,2,CSGO-S9FTf-TUEWJ-m3ByR-9SWUa-YcOUD,T,Unranked,-1,Talevor,c3ddd683
+76561197996437459,-1,9,8,CSGO-RaZxB-3eenv-S7fMY-txc25-qhRqJ,T,Unranked,-1,【﻿ＰＫ】,c3ddd683
+76561198000238678,-1,10,9,CSGO-dhq38-rkhtA-mmMun-wwJLV-RYcNE,T,Unranked,-1,Erick,c3ddd683
+76561198026214582,-1,4,3,CSGO-8NYpr-onLiz-SDyGe-L8DzV-jA26A,CT,Unranked,-1,Connan,c3ddd683
+76561198421514418,-1,12,11,CSGO-eFULe-6R3Eo-4wFpi-iXPNS-W4sKG,T,Unranked,-1,rodrigaoobrabo,c3ddd683
+76561198178993731,-1,17,6,CSGO-6QzF9-TMWTW-4fCzG-wRXGt-NZGiJ,CT,Unranked,-1,Siraissi,c3ddd683

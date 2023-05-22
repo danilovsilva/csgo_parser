@@ -66,6 +66,15 @@ class csgo_analyzer():
             .groupby('attacker_steamid')["attacker_steamid"]\
             .count().reset_index(name="kills")
 
+        df_headshot_kills = self.dataframes["player_death"]\
+            .query("attacker_steamid != 0")\
+            .query("tick > "+tick_round_start)\
+            .query("attacker_side != "+tick_round_start)\
+            .query("headshot == True")\
+            .groupby('attacker_steamid')["attacker_steamid"]\
+            .count().reset_index(name="headshot_kills")\
+            .rename(columns={"attacker_steamid": "attacker_steamid_headshot_kills"})
+
         df_kill_teammates = self.dataframes["player_death"]\
             .query("attacker_side == player_side")\
             .query("tick > "+tick_round_start)\
@@ -78,6 +87,11 @@ class csgo_analyzer():
                 .drop(columns=['attacker_steamid_teammates'])\
                 .fillna(0)
 
+        df_kills = pd.merge(df_kills, df_headshot_kills, how='left', left_on=[
+            'attacker_steamid'], right_on=['attacker_steamid_headshot_kills'])\
+                .drop(columns=['attacker_steamid_headshot_kills'])\
+                .fillna(0)
+
         df_kills["true_kills"] = (df_kills["kills"] \
                                   - 2 * df_kills["kill_teammates"])
 
@@ -88,6 +102,20 @@ class csgo_analyzer():
             .query("tick > "+tick_round_start)\
             .groupby('player_steamid')["player_steamid"]\
             .count().reset_index(name="death")
+
+        df_headshot_deaths = self.dataframes["player_death"]\
+            .query("attacker_steamid != 0")\
+            .query("tick > "+tick_round_start)\
+            .query("attacker_side != "+tick_round_start)\
+            .query("headshot == True")\
+            .groupby('player_steamid')["player_steamid"]\
+            .count().reset_index(name="headshot_deaths")\
+            .rename(columns={"player_steamid": "player_steamid_headshot_deaths"})
+
+        df_deaths = pd.merge(df_deaths, df_headshot_deaths, how='left', left_on=[
+            'player_steamid'], right_on=['player_steamid_headshot_deaths'])\
+                .drop(columns=['player_steamid_headshot_deaths'])\
+                .fillna(0)
 
         df_assist = self.dataframes["player_death"]\
             .query("tick > "+tick_round_start)\
