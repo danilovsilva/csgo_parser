@@ -38,7 +38,7 @@ class csgo_analyzer():
             [["steamid", "starting_side"]]\
             .rename(columns={"steamid": "steamid_sides"})
 
-        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"], 
+        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"],
                                                    df_player_sides,
                                                    how='left',
                                                    left_on=[
@@ -46,7 +46,7 @@ class csgo_analyzer():
                                                    right_on=['steamid_sides'])\
             .drop(columns=['steamid_sides'])\
             .rename(columns={"starting_side": "attacker_side"})
-        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"], 
+        self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"],
                                                    df_player_sides,
                                                    how='left',
                                                    left_on=['player_steamid'],
@@ -65,21 +65,35 @@ class csgo_analyzer():
             .groupby('attacker_steamid')["attacker_steamid"]\
             .count().reset_index(name="kills")
 
+        df_headshot_kills = self.dataframes["player_death"]\
+            .query("attacker_steamid != 0")\
+            .query("tick > "+tick_round_start)\
+            .query("attacker_side != "+tick_round_start)\
+            .query("headshot == True")\
+            .groupby('attacker_steamid')["attacker_steamid"]\
+            .count().reset_index(name="headshot_kills")\
+            .rename(columns={"attacker_steamid": "attacker_steamid_headshot_kills"})
+
         df_kill_teammates = self.dataframes["player_death"]\
             .query("attacker_side == player_side")\
             .query("tick > "+tick_round_start)\
             .groupby('attacker_steamid')["attacker_steamid"]\
             .count().reset_index(name="kill_teammates")\
             .rename(columns={'attacker_steamid': 'attacker_steamid_teammates'})
-                    
+
         df_kills = pd.merge(df_kills, df_kill_teammates, how='left', left_on=[
             'attacker_steamid'], right_on=['attacker_steamid_teammates'])\
                 .drop(columns=['attacker_steamid_teammates'])\
                 .fillna(0)
-               
+
+        df_kills = pd.merge(df_kills, df_headshot_kills, how='left', left_on=[
+            'attacker_steamid'], right_on=['attacker_steamid_headshot_kills'])\
+                .drop(columns=['attacker_steamid_headshot_kills'])\
+                .fillna(0)
+
         df_kills["true_kills"] = (df_kills["kills"] \
                                   - 2 * df_kills["kill_teammates"])
-                        
+
         df_kills = df_kills.drop(columns=['kills'])\
             .rename(columns={"true_kills": "kills"})
 
@@ -88,12 +102,26 @@ class csgo_analyzer():
             .groupby('player_steamid')["player_steamid"]\
             .count().reset_index(name="death")
 
+        df_headshot_deaths = self.dataframes["player_death"]\
+            .query("attacker_steamid != 0")\
+            .query("tick > "+tick_round_start)\
+            .query("attacker_side != "+tick_round_start)\
+            .query("headshot == True")\
+            .groupby('player_steamid')["player_steamid"]\
+            .count().reset_index(name="headshot_deaths")\
+            .rename(columns={"player_steamid": "player_steamid_headshot_deaths"})
+
+        df_deaths = pd.merge(df_deaths, df_headshot_deaths, how='left', left_on=[
+            'player_steamid'], right_on=['player_steamid_headshot_deaths'])\
+                .drop(columns=['player_steamid_headshot_deaths'])\
+                .fillna(0)
+
         df_assist = self.dataframes["player_death"]\
             .query("tick > "+tick_round_start)\
             .query("assister !=0")\
             .groupby('assister')["assister"]\
             .count().reset_index(name="assist")
-        
+
         df_kda = pd.merge(df_kda, df_kills, how='left', left_on=[
                           'steamid'], right_on=['attacker_steamid'])\
             .drop(columns=['attacker_steamid'])
