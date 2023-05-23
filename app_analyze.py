@@ -122,6 +122,21 @@ class csgo_analyzer():
             .query("assister !=0")\
             .groupby('assister')["assister"]\
             .count().reset_index(name="assist")
+        
+        df_weapon_kills = self.dataframes["player_death"][["attacker_steamid", "weapon", "tick", "attacker_side"]]\
+            .query("tick > " + tick_round_start)\
+            .query("attacker_side != "+tick_round_start)\
+            .groupby(['attacker_steamid', 'weapon'])['attacker_steamid']\
+            .count().reset_index(name="kills")
+        
+        df_weapon_kills_pivoted = df_weapon_kills.pivot_table(index='attacker_steamid', columns='weapon', values='kills', fill_value=0)
+
+        df_weapon_deaths = self.dataframes["player_death"]\
+            .query("tick > "+tick_round_start)\
+            .groupby(['player_steamid', 'weapon'])["player_steamid"]\
+            .count().reset_index(name="deaths")
+        
+        df_weapon_deaths_pivoted = df_weapon_deaths.pivot_table(index='player_steamid', columns='weapon', values='deaths', fill_value=0)
 
         df_kda = pd.merge(df_kda, df_kills, how='left', left_on=[
                           'steamid'], right_on=['attacker_steamid'])\
