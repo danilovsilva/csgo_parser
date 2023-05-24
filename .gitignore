@@ -1,4 +1,7 @@
 passwd.py
 demos/
 csv/
+csv/*
+csv
 installing_pyspark
+.vscode

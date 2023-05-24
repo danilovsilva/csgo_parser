@@ -1,5 +1,5 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col
+from pyspark.sql.functions import col, lit
 from demoparser import DemoParser
 from app_analyze import CSGOAnalyzer
 # ----- JRE -----
@@ -128,10 +128,11 @@ class CSGOParser:
         dataframe = dataframe.dropna(how='all')
         # Remove columns with all zero values
         dataframe = dataframe.select(
-            [col for col in dataframe.columns if dataframe.where(col != 0).count() > 0])
+            [col(col_name) for col_name in dataframe.columns if dataframe.where(col(col_name) != 0).count() > 0])
 
         # Set the match ID in the dataframe
-        dataframe = dataframe.withColumn("match_id", col(self.match_id))
+        dataframe.show()
+        dataframe = dataframe.withColumn("match_id", lit(self.match_id))
 
         return dataframe
 
@@ -174,7 +175,7 @@ class CSGOParser:
             DataFrame: The dataframe containing the parsed header data.
         """
         data_parsed = self.parse_header
-        data_df = self.spark.createDataFrame(data_parsed)
+        data_df = self.spark.createDataFrame([data_parsed])
 
         data_df = self.clean_remove_dataframe_columns(data_df)
 
@@ -188,9 +189,12 @@ class CSGOParser:
         self.save_to_csv(self.get_parsed_header(), "parse_header")
 
         all_events = self.list_all_events()
+        a = 0
         for event in all_events:
+            print("loading event "+event+" - "+str(a)+"/"+str(len(all_events)))
             parsed_event = self.get_parsed(event)
             self.save_to_csv(parsed_event, event)
+            a = a+1
 
     def list_all_events(self):
         """
