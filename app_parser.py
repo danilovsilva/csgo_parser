@@ -1,7 +1,9 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col
+from pyspark.sql.functions import col, lit
 from demoparser import DemoParser
 from app_analyze import CSGOAnalyzer
+from pyspark.sql.functions import col
+
 # ----- JRE -----
 # https://www.java.com/en/download/manual.jsp
 # windows offline 64
@@ -42,7 +44,7 @@ class CSGOParser:
         Args:
             demo_path (str): The path to the CSGO .dem file.
         """
-        self.spark = SparkSession.builder.getOrCreate()
+        self.spark = SparkSession.builder.config("spark.executor.memory", "20g").getOrCreate()                                
         self.parser = DemoParser(demo_path)
         self.match_date = self.get_date_from_demofile(demo_path)
         self.parse_players = self.parser.parse_players()
@@ -126,13 +128,14 @@ class CSGOParser:
         """
         # Remove columns with all missing values
         dataframe = dataframe.dropna(how='all')
+                              
         # Remove columns with all zero values
-        dataframe = dataframe.select(
-            [col for col in dataframe.columns if dataframe.where(col != 0).count() > 0])
-
+        # dataframe = dataframe.select(
+        #     [col(col_name) for col_name in dataframe.columns if dataframe.where(col(col_name) != 0).count() > 0])            
+       
         # Set the match ID in the dataframe
-        dataframe = dataframe.withColumn("match_id", col(self.match_id))
-
+        dataframe = dataframe.withColumn("match_id", lit(self.match_id))
+        
         return dataframe
 
     def get_parsed(self, event):
@@ -174,10 +177,10 @@ class CSGOParser:
             DataFrame: The dataframe containing the parsed header data.
         """
         data_parsed = self.parse_header
-        data_df = self.spark.createDataFrame(data_parsed)
+        data_df = self.spark.createDataFrame([data_parsed])
 
         data_df = self.clean_remove_dataframe_columns(data_df)
-
+        print(data_df)
         return data_df
 
     def load_all_events(self):
@@ -187,10 +190,14 @@ class CSGOParser:
         self.save_to_csv(self.get_parsed_players(), "parse_players")
         self.save_to_csv(self.get_parsed_header(), "parse_header")
 
-        all_events = self.list_all_events()
+        # all_events = self.list_all_events()
+        a=0
+        all_events =["player_death", "round_end", "round_announce_match_start"]
         for event in all_events:
+            print("loading event "+event+" - "+str(a)+"/"+str(len(all_events)))
             parsed_event = self.get_parsed(event)
             self.save_to_csv(parsed_event, event)
+            a=a+1
 
     def list_all_events(self):
         """
@@ -215,7 +222,7 @@ class CSGOParser:
         Main method for executing the steps of parsing and analyzing the CSGO game.
         """
         self.load_all_events()
-        analyze = csgo_analyzer(self.match_id, self.match_date)
+        analyze = CSGOAnalyzer(self.match_id, self.match_date)
         analyze.main()
 
 

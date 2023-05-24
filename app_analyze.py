@@ -2,7 +2,7 @@ import os
 import json
 
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import col, count
+from pyspark.sql.functions import col, count, StringType, when
 from pyspark.sql.types import StringType
 from retry import retry
 
@@ -13,9 +13,9 @@ class CSGOAnalyzer:
     def __init__(self, match_id, match_date):
         self.match_id = match_id
         self.match_date = match_date
+        self.spark = SparkSession.builder.getOrCreate()
 
     def read_csv_to_pyspark(self):
-        spark = SparkSession.builder.getOrCreate()
         csv_files = os.listdir(self.LOCAL_CSV_PATH)
         self.dataframes = {}
 
@@ -24,11 +24,11 @@ class CSGOAnalyzer:
                 # Remove a extensão .csv do nome do arquivo
                 nome_dataframe = file[:-4]
                 caminho_arquivo = os.path.join(self.LOCAL_CSV_PATH, file)
-                self.dataframes[nome_dataframe] = spark.read.csv(
+                self.dataframes[nome_dataframe] = self.spark.read.csv(
                     caminho_arquivo, header=True)
 
     def func_kda(self):
-        spark = SparkSession.builder.getOrCreate()
+        self.spark = SparkSession.builder.getOrCreate()
 
         player_death_df = self.dataframes["player_death"]
         round_announce_match_start_df = self.dataframes["round_announce_match_start"]
@@ -38,7 +38,7 @@ class CSGOAnalyzer:
         tick_round_start = str(
             round_announce_match_start_df.select("tick").first()["tick"])
 
-        df_player_sides = parse_players_df.select("steamid", "starting_side") \
+        df_player_sides = parse_players_df.select(col("steamid"), col("starting_side")) \
             .withColumnRenamed("steamid", "steamid_sides")
 
         player_death_df = player_death_df.join(df_player_sides, player_death_df["attacker_steamid"] == df_player_sides["steamid_sides"], "left") \
@@ -110,11 +110,12 @@ class CSGOAnalyzer:
         df_score_first = df_score_first \
             .groupBy("winner") \
             .agg(count("winner").alias("rounds"))
+        
         df_score_first = df_score_first.withColumn("winner_starting_side",
-                                                   col("winner").cast(
-                                                       StringType())
-                                                   .replace("3", "ct")
-                                                   .replace("2", "t"))
+                                           when(col("winner") == "3", "ct")
+                                           .when(col("winner") == "2", "t")
+                                           .otherwise(None))
+        
         return df_score_first.toJSON().collect()
 
     def get_score_second_half(self):
@@ -124,16 +125,13 @@ class CSGOAnalyzer:
         If CT wins a round, we will put it as a T because we count
         By the 'Starting side' of the team.
         """
-        df_score_second = self.dataframes["round_end"].select(
-            "winner").offset(15)
-        df_score_second = df_score_second \
-            .groupBy("winner") \
-            .agg(count("winner").alias("rounds"))
+        df_score_second = self.spark.createDataFrame(self.dataframes["round_end"].tail(
+            self.dataframes["round_end"].count()-15), self.dataframes["round_end"].schema)
+        df_score_second = df_score_second.groupBy("winner").agg(count("winner").alias("rounds"))
         df_score_second = df_score_second.withColumn("winner_starting_side",
-                                                     col("winner").cast(
-                                                         StringType())
-                                                     .replace("2", "ct")
-                                                     .replace("3", "t"))
+                                                     when(col("winner") == "2", "ct")
+                                                    .when(col("winner") == "3", "t")
+                                                    .otherwise(None))
         return df_score_second.toJSON().collect()
 
     @retry(Exception, tries=3, delay=1)
@@ -147,7 +145,7 @@ class CSGOAnalyzer:
         Raises:
             Exception: If sending data to the REST endpoint fails.
         """
-        spark = SparkSession.builder.getOrCreate()
+        self.spark = SparkSession.builder.getOrCreate()
         json_data = df.toJSON().collect()
 
         match_map = self.get_match_map()
@@ -165,13 +163,13 @@ class CSGOAnalyzer:
             "data": json_data
         }
 
-        json_file = spark.createDataFrame(
+        json_file = self.spark.createDataFrame(
             [json.dumps(data_dict)], StringType())
 
         json_file.write.mode("overwrite").text(
             "c:/projects/csgo_parser/output")
 
     def main(self):
-        self.read_csv_to_pd()
+        self.read_csv_to_pyspark()
         self.func_kda()
         print()
