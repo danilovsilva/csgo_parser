@@ -9,8 +9,9 @@ from datetime import datetime
 class csgo_analyzer():
     LOCAL_CSV_PATH = "c:/projects/csgo_parser/csv"
 
-    def __init__(self, match_id):
+    def __init__(self, match_id, match_date):
         self.match_id = match_id
+        self.match_date = match_date
         print()
 
     def read_csv_to_pd(self):
@@ -35,8 +36,7 @@ class csgo_analyzer():
             "tick"][0])
 
         # How many teamate kills
-        df_player_sides = self.dataframes["parse_players"]\
-            [["steamid", "starting_side"]]\
+        df_player_sides = self.dataframes["parse_players"][["steamid", "starting_side"]]\
             .rename(columns={"steamid": "steamid_sides"})
 
         self.dataframes["player_death"] = pd.merge(self.dataframes["player_death"],
@@ -171,8 +171,8 @@ class csgo_analyzer():
                   2: "t"})
         df_score_first = df_score_first.rename(
             columns={"winner": "winner_starting_side"})
-        print()
-        return df_score_first
+
+        return df_score_first.to_json(orient='records', indent=4)
 
     def get_score_second_half(self):
         """
@@ -191,7 +191,8 @@ class csgo_analyzer():
         df_score_second = df_score_second.rename(
             columns={"winner": "winner_starting_side"})
         print()
-        return df_score_second
+
+        return df_score_second.to_json(orient='records', indent=4)
 
     def get_total_damage_health(self):
 
@@ -235,18 +236,18 @@ class csgo_analyzer():
         match_map = self.get_match_map()
 
         # Get the score of CT
-        score_ct = self.get_score_first_half()
+        score_first_half = self.get_score_first_half()
 
         # Get the score of T
-        score_t = self.get_score_second_half()
+        score_second_half = self.get_score_second_half()
 
         # Creating the header of the object
         data_dict = {
             "match_id": self.match_id,
-            "score_ct": score_ct,
-            "score_tr": score_t,
+            "score_first_half": score_first_half,
+            "score_second_half": score_second_half,
             "match_map": match_map,
-            "match_date": datetime.today().strftime('%Y-%m-%d'),
+            "match_date": self.match_id,
             "data": json_data
         }
 
