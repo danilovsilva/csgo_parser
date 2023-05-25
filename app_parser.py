@@ -1,6 +1,7 @@
 from demoparser import DemoParser
 import pandas as pd
-from app_analyze import csgo_analyzer
+# from app_analyze import csgo_analyzer
+from app_analyze_pyspark import CSGOAnalyzer as csgo_analyzer
 
 
 class csgo_parser():

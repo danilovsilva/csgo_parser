@@ -1,11 +1,11 @@
-name,rank_id,entity_id,crosshair_code,comp_wins,steamid,user_id,rank_name,starting_side,match_id
-【﻿ＰＫ】,-1,8,CSGO-RaZxB-3eenv-S7fMY-txc25-qhRqJ,-1,76561197996437459,9,Unranked,T,c3ddd683
-rodrigaoobrabo,-1,11,CSGO-eFULe-6R3Eo-4wFpi-iXPNS-W4sKG,-1,76561198421514418,12,Unranked,T,c3ddd683
-AVARA KÉRABA,-1,13,CSGO-jBmCr-rwBrj-j8Ueh-TwcDp-cVGOP,-1,76561198397576589,14,Unranked,CT,c3ddd683
-Connan,-1,3,CSGO-8NYpr-onLiz-SDyGe-L8DzV-jA26A,-1,76561198026214582,4,Unranked,CT,c3ddd683
-Erick,-1,9,CSGO-dhq38-rkhtA-mmMun-wwJLV-RYcNE,-1,76561198000238678,10,Unranked,T,c3ddd683
-Siraissi,-1,6,CSGO-6QzF9-TMWTW-4fCzG-wRXGt-NZGiJ,-1,76561198178993731,17,Unranked,CT,c3ddd683
-Talevor,-1,2,CSGO-S9FTf-TUEWJ-m3ByR-9SWUa-YcOUD,-1,76561198124241179,3,Unranked,T,c3ddd683
-Luiz,-1,5,CSGO-hjaYp-pUqRP-j5NY9-uEKp6-X9VeL,-1,76561198100001022,6,Unranked,T,c3ddd683
-MonsTro,-1,12,CSGO-aTbpw-qAFWh-iMw4Z-BdB5J-thiaB,-1,76561198340888446,13,Unranked,CT,c3ddd683
-Cujura,-1,4,CSGO-8j6ha-BJcYV-KixQi-bVkQK-PHPYE,-1,76561198051880621,5,Unranked,CT,c3ddd683
+name,rank_name,steamid,entity_id,user_id,comp_wins,rank_id,starting_side,crosshair_code,match_id
+Erick,Unranked,76561198000238678,9,10,-1,-1,T,CSGO-dhq38-rkhtA-mmMun-wwJLV-RYcNE,c3ddd683
+MonsTro,Unranked,76561198340888446,12,13,-1,-1,CT,CSGO-aTbpw-qAFWh-iMw4Z-BdB5J-thiaB,c3ddd683
+AVARA KÉRABA,Unranked,76561198397576589,13,14,-1,-1,CT,CSGO-jBmCr-rwBrj-j8Ueh-TwcDp-cVGOP,c3ddd683
+Luiz,Unranked,76561198100001022,5,6,-1,-1,T,CSGO-hjaYp-pUqRP-j5NY9-uEKp6-X9VeL,c3ddd683
+rodrigaoobrabo,Unranked,76561198421514418,11,12,-1,-1,T,CSGO-eFULe-6R3Eo-4wFpi-iXPNS-W4sKG,c3ddd683
+【﻿ＰＫ】,Unranked,76561197996437459,8,9,-1,-1,T,CSGO-RaZxB-3eenv-S7fMY-txc25-qhRqJ,c3ddd683
+Talevor,Unranked,76561198124241179,2,3,-1,-1,T,CSGO-S9FTf-TUEWJ-m3ByR-9SWUa-YcOUD,c3ddd683
+Connan,Unranked,76561198026214582,3,4,-1,-1,CT,CSGO-8NYpr-onLiz-SDyGe-L8DzV-jA26A,c3ddd683
+Cujura,Unranked,76561198051880621,4,5,-1,-1,CT,CSGO-8j6ha-BJcYV-KixQi-bVkQK-PHPYE,c3ddd683
+Siraissi,Unranked,76561198178993731,6,17,-1,-1,CT,CSGO-6QzF9-TMWTW-4fCzG-wRXGt-NZGiJ,c3ddd683

@@ -1,0 +1,71 @@
+tutorial para nao preguiçosos: https://bioinfo.imd.ufrn.br/transcricaoemdia/novidades/ne-017-2
+
+
+
+
+
+tutorial para preguiçosos:
+instale o vscode: https://code.visualstudio.com/docs/?dv=win
+
+Instale o Python: https://www.python.org/ftp/python/3.11.3/python-3.11.3-amd64.exe
+
+Instale o java: https://www.java.com/pt-BR/download/
+
+Crie as pastas
+cmd >mkdir C:\Spark,C:\hadoop\bin
+
+abra o Powershell ISE e digite as linhas abaixo:
+
+Invoke-WebRequest -Uri https://downloads.apache.org/spark/spark-3.4.0/spark-3.4.0-bin-hadoop3.tgz -OutFile "C:\Spark\spark.tgz"
+
+& 'C:\Program Files\WinRAR\WinRAR.exe' x "C:\Spark\spark.tgz" "C:\Spark\"
+
+Get-ChildItem C:\Spark -directory | Rename-Item -NewName spark
+
+[Environment]::SetEnvironmentVariable("SPARK_HOME", "C:\Spark\spark", "User")
+
+[Environment]::SetEnvironmentVariable("HADOOP_HOME", "C:\hadoop", "User")
+
+$USER_PATH = [Environment]::GetEnvironmentVariable("Path", "User")
+
+[Environment]::SetEnvironmentVariable("Path",$USER_PATH+ "C:\Spark\spark\bin;C:\hadoop\bin;", "User")
+
+
+Agora vamos setar a PYSPARK_PYTHON, voce pode verificar se ficou correto abrindo o cmd e escrevendo "echo %PYSPARK_PYTHON%" sem aspas. Esse local tem que ser o seu python
+$APPDATA = [Environment]::GetEnvironmentVariable("APPDATA", "User")
+[Environment]::SetEnvironmentVariable("PYSPARK_PYTHON", $APPDATA+ "\Local\Programs\Python\Python311\python.exe", "User")
+
+
+
+
+
+hadoop 3.0.1
+Baixe os arquivos
+https://github.com/cdarlint/winutils/blob/master/hadoop-3.0.1/bin/hadoop.dll
+
+https://github.com/cdarlint/winutils/blob/master/hadoop-3.0.1/bin/winutils.exe
+
+Mova-os para C:\hadoop\bin
+
+
+
+Dentro das pastas do seu projeto abra .vscode/launch.json (ou crie esse diretorio
+e arquivo caso nao exista, esse arquivo é criado automaticamente sempre que voce tenta rodar um debugg no projeto)
+Dentro da chave "configurations" adicione (separa as duas configs com ","):
+        {
+            "name": "Debug PySpark",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "env": {
+            "PYSPARK_PYTHON": "<C:\\Users\\Danilo\\anaconda3\\python.exe>",
+            "PYSPARK_DRIVER_PYTHON": "<C:\\Users\\Danilo\\anaconda3\\python.exe>"
+            }
+        }
+
+Lembre-se de mudar o PYSPARK_PYTHON e PYSPARK_DRIVER_PYTHON para o caminhos do seu python
+
+
+
+baixe a extens~çao Jupyter no vscode para poder visualizar os dataframes durante o debugg the forma mais bonita

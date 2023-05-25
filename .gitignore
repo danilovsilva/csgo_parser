@@ -1,3 +1,7 @@
 passwd.py
 demos/
 csv/
+csv/*
+.vscode/launch.json
+__pycache__/
+output/
